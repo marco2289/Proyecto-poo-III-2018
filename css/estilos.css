@@ -1,0 +1,136 @@
+body {
+    background-image: url(../img/fondo2.jpg)  ;
+    background-repeat: no-repeat;background-size:cover;
+    background-color: rgb(0, 0, 0);
+
+}
+
+
+
+#loggin {
+
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 350px;
+    height: 700px;
+    color: #fff;
+    padding: 50px 50px 50px 50px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+     
+   
+}
+
+
+
+
+input[type="text"], input[type="password"]{
+    background-color: #333333;
+    width: 100%;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+    color: #ffffff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.boton{
+    width: 100%;
+    font-size: 18px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: bold;
+    margin: 5px 0 5px 0;
+}
+
+.boton-rojo{
+    background: rgb(118, 118, 206);
+}
+
+.boton-verde{
+    background: green;
+}
+   
+#menu_master{
+    margin: 0;
+    padding: 0;
+    background: rgb(0, 0, 0, 0.3)
+}
+   
+
+
+
+ .master .nav {
+    overflow: hidden;
+  
+   
+}
+
+.master .nav .menu{
+    list-style: none;
+    width: 90%;
+  
+ 
+    
+}
+.master .nav .menu>li{
+    padding: 1em;
+    width: 14%;
+    float: left;
+    margin-right: 30px;
+   
+   
+}
+ 
+.master .nav .menu>li>a{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    margin: 0px;
+    padding-right: 30px;
+   
+   
+}
+
+.master .nav .menu>li:hover, nav .menu>li>.submenu>li:hover{
+ 
+    cursor: pointer;
+   
+}
+
+
+.master .nav .menu>li>.submenu{
+    position: absolute;
+    width: 16%;
+    list-style: none;
+    color: white;
+    margin-top: 1em;
+    display: none;
+    background: rgb(0, 0, 0, 0.1)
+
+}
+.master .nav .menu>li:hover>.submenu{
+    display: block;
+
+}
+
+.master .nav .menu >li> .submenu>li{
+    padding: 1em;
+
+}
+.master .nav .menu>li>.submenu>li>a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-top: 5px;
+}
