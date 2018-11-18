@@ -11,25 +11,36 @@
     <link href="css/estilos.css" rel="stylesheet">
     <script src="main.js"></script>
 </head>
-<body class="text-center">
-        <div id= "menu_master" class="master"> 
-                <nav class="nav">
-                    <ul class="menu">
-                        <li ><a href="#">Pagina Principal</a></li>
-                        <li><a href="#">Primer Ingreso</a></li>
-                        <li><a href="#">Sistema Pregrado</a>
-                            <ul class="submenu">
-                                    <li><a href="#">Estudiantes</a></li>
-                                    <li><a href="#">Profesores</a></li>
-                                    <li><a href="#">Jefes de departamento</a></li>                                  
-                            </ul>
-                        </li>
-                        <li><a href="#">Siatema postgrado</a></li>
-                        <li><a href="#">Administracion</a></li>
-                    
-                    </ul>
-                </nav>
-            </div>  
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Inicio</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="">Pregrado <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Postgrado</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Administracion</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown link
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
  
    
    
