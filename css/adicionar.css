@@ -1,0 +1,197 @@
+body{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    font-family: Helvetica;
+    overflow-y: scroll;
+    overflow-y: visible;
+    overflow-x: hidden;
+    background-color: black;
+    font-family: Helvetica Neue LT,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+}
+
+.fondo{
+    background-color: #fff;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 110%;
+}
+
+/*====================seccion 1=============================*/
+.seccion1{
+    background-color: #003360;
+    position: relative;
+    height: 22%;
+    align-content: center;
+    background-image: url(../img/logos/LucemAspicioAmarillo.png);
+    background-repeat: no-repeat;
+    background-size: 11%;
+    background-position-x: 100%;
+    background-position-y: 100%;
+}
+#logo{
+ position: relative;
+ width: 45%;
+ float: left;
+ margin-top: 4%;
+}
+
+#texto1{
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    margin-left:50%;
+    margin-top: 7%;
+    font-size: 1.8em;
+}
+
+/*====================navbar=============================*/
+.navbar{
+    background-color: #183F60 !important;
+    margin-top: 0.5%;
+}
+
+.menus a{
+    color: #fff !important;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.menus >li{
+    display: inline-block;
+    position: relative;
+}
+.menus >li >a{
+    display: block;
+    padding: 5px 30px;
+    color: #0000 ;
+    text-decoration: none;
+}
+.menus li a:hover{
+color: #FDED07 !important;
+}
+
+
+.submenu{
+    position: absolute;
+    background: #183F60;
+    color: #183F60 !important;
+    font-weight: bold;
+    width: 100%;
+   visibility: hidden;
+   padding: 10px 15px;
+}
+
+.submenu li a{
+    display: in-block; 
+    padding: 5px;
+    color: #1DA1F2;
+    text-decoration: none;
+    position: absolute;
+}
+.submenu li a:hover{
+    display: in-block; 
+    padding: 5px;
+    color: #BFCBD6 !important;
+    text-decoration: none;
+}
+.menus li:hover .submenu{
+ color:#fff;
+ visibility: visible;
+}
+
+.button-style{
+    border: none;
+    
+}
+
+/*==================================================================*/
+#jefe{
+    color:#CF6600; 
+    margin-top: 15px;
+    margin-left: 15px; 
+    font-weight:bold;
+    float: left;
+}
+.parte2{
+    background-color: rgb(255, 255, 255);
+    height: 700px;
+    font-size: 1.2em;
+}
+
+.seccion2{
+    padding:2% 7%;
+}
+
+td {
+    padding: 1px;
+     text-align: left;
+     display: table-cell;
+     vertical-align: inherit;
+ }
+ 
+ table {
+     border-collapse: separate;
+     border-spacing: 2px;
+     font-size: 0.8em;
+     width: 100%;
+     padding: 4% 2%;
+   }
+ 
+ #gris{
+     color:#696981;
+     font-size: 0.6;
+ }
+ 
+ table.td >a{
+ color: #003360;
+ }
+
+ #encabezado1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.7em;
+}
+
+#tabla1{
+    width:100%;
+    border-collapse:collapse;
+    white-space: nowrap;
+}
+
+#tabla1 p{
+    font-size:12px; 
+}
+
+#tabla2{
+    width:100%;
+    border-collapse:collapse;
+    white-space: nowrap;
+    border-color: #696981;
+}
+
+#tabla2 p{
+    font-size:12px; 
+}
+
+/*========================footer========================*/
+.footer{
+    background-color: #003360;
+    height: 10%;
+    color: #fff;
+    text-align: center;
+    margin-top: 3%;
+}
+
+
+#advertencia p {
+    margin: 3px 0;
+
+}
+
+#derechos p, tr{
+    margin: 3px 0;
+}
+

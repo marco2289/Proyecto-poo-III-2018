@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Menú principal de estudiantes</title>
+    <link rel="icon" href="img/logos/logo.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/FontAwesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="css//FontAwesome/css/all.css">
+    <link rel="stylesheet" href="css/adicionar.css">
+</head>
+<body>
+    <div class="fondo">
+        <section class="seccion1">
+            <div class="container-fluid">
+                <div class="row h-100 w-100">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                            <div>
+                                <img src="img/logos/logo-unah.png" id="logo">
+                                <div id="texto1">
+                                    <p>Dirección de permanencia y promoción</p>
+                                    <p>DIPP-UNAH</p>
+                                </div>
+                            </div>                         
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <nav class="navbar navbar-expand-lg bg-light ">
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+              <ul class="navbar-nav mr-auto menus" >
+                    <li class="nav-item ">
+                        <a class="nav-link" href="inicio.html" style="color:fff; font-weight:bold">Página principal</a>
+                    </li>  
+                    
+                    <li class="nav-item ">
+                        <a class="nav-link" href="login.html" style="color:fff; font-weight:bold">Primer ingreso</a>
+                    </li>  
+
+                    <li class="nav-item active ">
+                        <a href="#" >Sistema de pregrado</a>
+                            <ul class="submenu">
+                                <li><a href="estudiantes.html">Estudiantes</a></li>
+                                <hr>
+                                <li><a href="profesores.html">Profesores</a></li>
+                                <hr>
+                                <li><a href="jefes.html">Jefes de departamento</a></li>
+                                <hr>
+                                <li><a href="#">Programas especiales</a></li>
+                                <hr>
+                                <li><a href="#">Suficiencias</a></li>
+                                <hr>
+                                <li><a href="coordinador.html">Coordinador asignatura</a></li>      
+                            </ul>
+                    </li>
+                     
+                    <li class="nav-item ">
+                        <a href="#" >Sistema de postgrado</a>
+                            <ul class="submenu">
+                                <li><a href="#">Solicitudes de ingreso</a></li>
+                                <hr>
+                                <li><a href="#">Oferta académica</a></li>
+                                <hr>
+                                <li><a href="#">Servicio al estudiante</a></li>
+                                <hr>
+                                <li><a href="#">Coordinación de postgrados</a></li>
+                                <hr>
+                                <li><a href="#">Registro de calificaciones</a></li>    
+                            </ul>
+                    </li>  
+                    
+                    <li class="nav-item ">
+                            <a href="#" >Administración</a>
+                                <ul class="submenu">
+                                    <li><a href="#">Dirección académica</a></li>
+                                    <hr>
+                                    <li><a href="#">Comisionado universitario</a></li>
+                                    <hr>
+                                    <li><a href="#">Tesoreria</a></li>
+                                    <hr>
+                                    <li><a href="#">Decanos</a></li>
+                                    <hr>
+                                    <li><a href="#">DIPP</a></li>  
+                                    <hr>
+                                    <li><a href="#">SEAPI</a></li>   
+                                </ul>
+                        </li>
+              </ul>
+       
+            </div>
+        </nav>
+
+        <section>
+                <div>
+                    <p id="jefe">ADICIONAR ASIGNATURAS</p>                   
+                    <div  style="float:right; margin-right: 1%"><a href="login.html">Cerrar sesión  </a><i class="fas fa-times-circle" style="color:red"></i></div> 
+                    <br>
+                    <div style="margin-left: 15px;margin-top: 3%">
+                        <P><b> Matrícula de Periodo</b></P>
+                    </div>       
+                </div>       
+<hr>
+                <div class="parte2">
+                    <section class="seccion2">
+                         <div style="background-color: #1994ff" id="derechos">   
+                             <p id="encabezado1">Datos del Estudiante</p>  
+                         </div>      
+                         <table cellspacing="0" cellpadding="0" id="tabla1">
+                             <tbody> 
+                                        <tr>
+                                            <td>
+                                                <p><b>Nombre:</b></p>
+                                            </td>
+                                            <td>
+                                                <p>sssssssssssssss</p>
+                                            </td>
+                                            <td>
+                                                <p><b>Carrera:</b></p>
+                                            </td>
+                                            <td>
+                                                <p>ej. Ingenieria en sistemas</p>
+                                            </td>
+                                        </tr>
+                    
+                                        <tr>
+                                            <td>
+                                                <p><b>Año:</b></p>
+                                            </td>
+                                            <td>
+                                                <p>2018</p>
+                                            </td>
+                                            <td>
+                                                <p><b>UV Disponibles:</b></p>
+                                            </td>
+                                            <td>
+                                                <p>25</p>
+                                            </td>
+                                        </tr>
+                    
+                                        <tr>
+                                            <td>
+                                                <p><b>Periodo</b></p>
+                                            </td>
+                                            <td>
+                                                <p>3</p>
+                                            </td>
+                                        </tr>
+                                    </tr>
+                             </tbody>
+                         </table>  
+                    </section> 
+
+                    <div>
+                        <button style="margin-left:7%"  class="btn btn-success" type="button" data-toggle="modal" data-target="#myModal">Seleccionar Asignatura</button>
+                    </div>
+                    
+                    <div class="seccion2">
+                            <div style="background-color: #1994ff" id="derechos">   
+                                    <p id="encabezado1">Asignaturas Matriculadas</p>  
+                            </div>   
+                            <table class="border" cellspacing="0" cellpadding="0" id="tabla2">
+                                    <tbody > 
+                                        <!--fila 1-->
+                                               <tr>
+                                                   <td>
+                                                       <p><b>Cod.</b></p>
+                                                   </td>
+                                                   <td>
+                                                        <p><b>Asignatura</b></p>
+                                                   </td>
+                                                   <td>
+                                                        <p><b>Sección</b></p>
+                                                   </td>
+                                                   <td>
+                                                        <p><b>HI</b></p>
+                                                   </td>
+                                                   <td>
+                                                        <p><b>HF</b></p>
+                                                   </td>
+                                                   <td>
+                                                        <p><b>Días</b></p>
+                                                   </td>
+                                                   <td>
+                                                        <p><b>UV</b></p>
+                                                   </td>
+                                                   <td>
+                                                        <p><b>Periodo</b></p>
+                                                   </td>
+                                               </tr>
+                                        <!--fila 2 se ira anadiendo conforme las asignaturas seleccionadas-->
+                                              
+                                    </tbody>
+                            </table>  
+<br>
+                            <div style="background-color: #1994ff" id="derechos">   
+                                    <p id="encabezado1">Asignaturas en Lista de Espera</p>  
+                            </div>   
+                            <table class="border" cellspacing="0" cellpadding="0" id="tabla2">
+                                    <tbody > 
+                                        <!--fila 1-->
+                                               <tr>
+                                                   <td>
+                                                       <p><b>Cod.</b></p>
+                                                   </td>
+                                                   <td>
+                                                        <p><b>Asignatura</b></p>
+                                                   </td>
+                                                   <td>
+                                                        <p><b>Sección</b></p>
+                                                   </td>
+                                                   <td>
+                                                        <p><b>HI</b></p>
+                                                   </td>
+                                                   <td>
+                                                        <p><b>HF</b></p>
+                                                   </td>
+                                                   <td>
+                                                        <p><b>Días</b></p>
+                                                   </td>
+                                                   <td>
+                                                        <p><b>UV</b></p>
+                                                   </td>
+                                                   <td>
+                                                        <p><b>Periodo</b></p>
+                                                   </td>
+                                               </tr>
+                                        <!--fila 2 se ira anadiendo conforme las asignaturas seleccionadas-->
+                                              
+                                    </tbody>
+                            </table> 
+<br>
+                            <div style="background-color: #1994ff" id="derechos">   
+                                    <p id="encabezado1">Laboratorios Matriculados</p>  
+                            </div>   
+                            <table class="border" cellspacing="0" cellpadding="0" id="tabla2">
+                                    <tbody > 
+                                        <!--fila 1-->
+                                               <tr>
+                                                   <td>
+                                                       <p><b>Cod.</b></p>
+                                                   </td>
+                                                   <td>
+                                                        <p><b>Asignatura</b></p>
+                                                   </td>
+                                                   <td>
+                                                        <p><b>Sección</b></p>
+                                                   </td>
+                                                   <td>
+                                                        <p><b>HI</b></p>
+                                                   </td>
+                                                   <td>
+                                                        <p><b>HF</b></p>
+                                                   </td>
+                                                   <td>
+                                                        <p><b>Días</b></p>
+                                                   </td>
+                                                   <td>
+                                                        <p><b>UV</b></p>
+                                                   </td>
+                                                   <td>
+                                                        <p><b>Periodo</b></p>
+                                                   </td>
+                                               </tr>
+                                        <!--fila 2 se ira anadiendo conforme las asignaturas seleccionadas-->
+                                              
+                                    </tbody>
+                            </table> 
+                    </div>
+                </div>
+        </section>
+
+        <section class="footer" style="margin: 0">
+            <div id="derechos" style="padding:10px">
+                <p>© Derechos Reservados UNAH 2018</p>
+                <a href="#" style="color: #fff">Dirección Ejecutiva de Gestión de Tecnología (DEGT)</a>                  
+            </div>
+        </section>
+
+<!--********************************VENTANA MODAL *****************************************-->
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            
+              <!-- Modal content-->
+            <div class="modal-content" style="background-color:#183F60">
+                <div class="modal-header centrar" >
+                  <h6 class="modal-title" style="color:white"><b>Asignaturas</b></h6>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body" style="background-color:rgb(255, 255, 255);" class="col-12 col-sm-12 col-md-6 col-lg-6 form-control">                
+                     <div class="row centrar">               
+                         <div class="col-12" style="margin-bottom:2%">
+  
+                            <div>
+                                    <select multiple class="form-control col-12 col-sm-12 col-md-4 col-lg-4 " id="select-carreras" style="float:left" size="12">
+                                            <option value="">Antropología</option>
+                                            <option value="">Arqueoastronomía y Astronomía cultural</option>
+                                            <option value="">Arte</option>
+                                            <option value="">Astronomía y Astrofísica</option>
+                                            <option value="">Biología</option>
+                                            <option value="">Ciencia y Tecnologías de la Información</option>
+                                            <option value="">Ciencias Políticas y Derechos Humanos</option>
+                                            <option value="">Cultura Física y Deportes</option>
+                                            <option value="">Ecología y Recursos Naturales</option>
+                                            <option value="">Estadística Matemática</option>
+                                            <option value="">Filosofía</option>
+                                            <option value="">Física de la Tierra</option>
+                                            <option value="">Historia</option>
+                                            <option value="">Infraestructura</option>
+                                            <option value="">Ingeniería de Sistemas</option>
+                                            <option value="">Lenguas Extrangeras</option>
+                                            <option value="">Letras</option>
+                                            <option value="">Matemática Aplicada</option>
+                                            <option value="">Matemática Pura</option>
+                                            <option value="">Materia Condensada</option>
+                                            <option value="">Química</option>
+                                            <option value="">Sociología</option>
+
+
+
+                                    </select>
+
+                                    <select multiple class="form-control col-12 col-sm-12 col-md-4 col-lg-4 " id="select-clases" style="float:left" size="12">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                    </select>
+
+                                    <select multiple class="form-control col-12 col-sm-12 col-md-4 col-lg-4 " id="select-secciones" size="12">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                    </select>
+                            </div>
+                            
+
+
+
+
+                         </div>  
+                         <br>                                                    
+                     </div>
+                </div>  
+                <div class="modal-footer">
+                    <button class="btn btn-success centrar"  type="button" value="Buscar">Matricular</button>
+                </div>                              
+            </div>
+        </div>
+          
+    </div>
+<!--********************************FIN VENTANA MODAL*****************************************-->
+
+
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>     
+    <script src="js/bootstrap.min.js"></script>
+</body>      
+
+
