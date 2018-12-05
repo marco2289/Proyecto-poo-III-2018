@@ -7,7 +7,7 @@ body {
 
 
 
-#loggin {
+#loggin{
 
     background-color: rgba(0, 0, 0, 0.6);
     width: 350px;
@@ -19,8 +19,15 @@ body {
     margin-right: auto;
     margin-top: 10px;
 
-     
-   
+}
+
+#encabezado     {
+    background-color: rgb(211, 26, 26);
+    width: auto;
+    height: 100px;
+    margin-bottom: 4px;
+
+
 }
 
 
