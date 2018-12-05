@@ -22,14 +22,21 @@ body {
 }
 
 #encabezado     {
-    background-color: rgb(211, 26, 26);
+    background-color: rgb(227, 231, 230, 0.9);
     width: auto;
     height: 100px;
     margin-bottom: 4px;
 
 
 }
+.navbar{
+    background-color: rgb(227, 231, 230, 0.7);
+}
 
+#dipp{
+    text-align: center;
+   
+}
 
 
 
