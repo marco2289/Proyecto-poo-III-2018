@@ -28,14 +28,26 @@ body {
 #loggin2{
     background-color: rgba(255, 255, 255, 0.7);
     width: 850px;
-    height: 50px;
+    height: 150px;
     color: #fff;
-    padding: 50px 50px 50px 50px;
+    padding-left: 30px;
+    padding-top: 17px;
+  
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
 
+}
+#loggin3{
+    
+    width: 250px;
+    margin-top: 5px;    
+}
+
+ #historial{
+    color: #333333;
+   
 }
 
 #barra{
