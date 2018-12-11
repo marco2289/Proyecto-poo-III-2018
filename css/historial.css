@@ -39,21 +39,32 @@ body {
     margin-top: 10px;
 
 }
+
+#navegacion{
+    margin-top: 70px;
+    background-color:rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    width: 850px;
+    height: 300px;
+    color: black;
+  
+ 
+}
 #loggin3{
     
     margin-top: 100px;
     background-color: red;
-    width: 6    50px;
-    height: 150px;
+    width: 50px;
+    height: 50px;
     color: #fff;
     height: 40px;
     padding-left: 30px;
-    padding-bottom: 59px;
-    padding-top: 250px;
+    padding-bottom: 150px;
+    padding-top: 50px;
     border-radius: 10px;
   
     
-    margin-top: 10px;
+    margin-top: 25px;
 
 }
 
