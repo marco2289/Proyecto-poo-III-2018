@@ -1,6 +1,6 @@
 <?php
 session_start();
-    $archivo = fopen("../../Formularios-Administracion/data/registro_docente.json","r");
+    $archivo = fopen("../data/docentes.json","r");
     while(($linea=fgets($archivo))){
         $registro=json_decode($linea,true);
         if(

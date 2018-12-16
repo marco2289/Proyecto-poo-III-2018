@@ -8,8 +8,8 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
-    <link href="css/area-personal.css" rel="stylesheet">
-    <script src="main.js"></script>
+    <link href="css/estilos.css" rel="stylesheet">
+    
 </head>
 
 <style>
@@ -45,8 +45,7 @@
         </li>
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Administrador
-            </a>
+              Administrador<span class="sr-only">(current)</span></a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="#">DIPP</a>
               <a class="dropdown-item" href="#">Decanos</a>
@@ -65,23 +64,47 @@
    
    
     <div id="loggin" > 
-            <div class="list-group">
-                    <h3 href="#" class="list-group-item list-group-item-action active" id="titulo">
-                      Mi espacio personal
-                    </h3>
-                    <a href="#" class="list-group-item list-group-item-action" id="titulo2">Historial academico</a>
-                    <a href="#" class="list-group-item list-group-item-action" id="titulo2" >Matricula</a>
-                    <a href="#" class="list-group-item list-group-item-action" id="titulo2" >Matricula de laboratorio</a>
-                    <a href="#" class="list-group-item list-group-item-action " id="titulo2" >Cambio de clave</a>
-                    <a href="#" class="list-group-item list-group-item-action " id="titulo2" >Ver calificaciones del periodo</a>
-                  </div>
-       
-       
+       <img class="mb-4 rounded-circle" src="" alt="">
+        <h1>Login Pregrado</h1> <hr>
+        <label for"cuenta"> Numero de cuenta </label>
+        <input  type="text" id="cuenta" placeholder="Cuenta" required autofocus>
+        <label> Password</label>
+        <input type="password" id="password" placeholder="password" required autofocus > 
+        <input type="button" class ="btn boton boton-rojo btn-primary" id="btn-login" value="Entrar">
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script>
+        $("#btn-login").click(function(){
+            $.ajax({
+                url:"ajax/login.php",
+                data:"usuario="+$("#cuenta").val() + "&password="+$("#password").val(),
+                dataType:"json",
+                method:"POST",
+                success:function(respuesta){
+                    console.log(respuesta);
+                    if (respuesta.estatus == 1){
+                        if (respuesta.tipoUsuario=="cajero")
+                            window.location.href = "cajero.php";//redireccionar
+                        else if (respuesta.tipoUsuario=="admin")
+                            window.location.href = "admin.php";//redireccionar
+                    }else 
+                        alert("Credenciales invalidas");
+                },
+                error:function(error){
+                    console.error(error);
+                }
+            });
+        });
+    </script>
+   
+        <label><input type="checkbox"> Recordarme</label>
+        <a href="#">ayuda?</a>
+        <p> Para ayuda llamar al 2221-4947</p><br>
+        <p>Derechos reservados UNAH</p>
 
 
 
     </div>
-    <script src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/controlador.js"></script>
 </body>

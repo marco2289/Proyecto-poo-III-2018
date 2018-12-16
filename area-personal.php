@@ -1,3 +1,12 @@
+<?php 
+    session_start();  
+    if (!isset($_SESSION["usuario"]))
+        header("Location: no-autorizado.html");//Redireccion con PHP
+?>
+
+
+
+
 <html>
 
 <!DOCTYPE html>
@@ -8,7 +17,7 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
-    <link href="css/estilos.css" rel="stylesheet">
+    <link href="css/area-personal.css" rel="stylesheet">
     <script src="main.js"></script>
 </head>
 
@@ -45,7 +54,8 @@
         </li>
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Administrador<span class="sr-only">(current)</span></a>
+              Administrador
+            </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="#">DIPP</a>
               <a class="dropdown-item" href="#">Decanos</a>
@@ -64,17 +74,18 @@
    
    
     <div id="loggin" > 
-       <img class="mb-4 rounded-circle" src="" alt="">
-        <h1>Login Pregrado</h1> <hr>
-        <label for"cuenta"> Numero de cuenta </label>
-        <input  type="text" id= "cuenta" placeholder="Cuenta" required autofocus>
-        <label> Password</label>
-        <input type="password" id="password" placeholder="password" required autofocus > 
-        <input type="button" class ="btn boton boton-rojo btn-primary" id="boton" value="Entrar">
-        <label><input type="checkbox"> Recordarme</label>
-        <a href="#">ayuda?</a>
-        <p> Para ayuda llamar al 2221-4947</p><br>
-        <p>Derechos reservados UNAH</p>
+            <div class="list-group">
+                    <h3 href="#" class="list-group-item list-group-item-action active" id="titulo">
+                      Mi espacio personal
+                    </h3>
+                    <a href="#" class="list-group-item list-group-item-action" id="titulo2">Historial academico</a>
+                    <a href="#" class="list-group-item list-group-item-action" id="titulo2" >Matricula</a>
+                    <a href="#" class="list-group-item list-group-item-action" id="titulo2" >Matricula de laboratorio</a>
+                    <a href="#" class="list-group-item list-group-item-action " id="titulo2" >Cambio de clave</a>
+                    <a href="#" class="list-group-item list-group-item-action " id="titulo2" >Ver calificaciones del periodo</a>
+                  </div>
+       
+       
 
 
 
