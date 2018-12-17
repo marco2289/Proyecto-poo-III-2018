@@ -86,8 +86,14 @@
                             window.location.href = "area-personal.php";//redireccionar
                         else if (respuesta.tipoUsuario=="admin")
                             window.location.href = "admin.php";//redireccionar
-                    }else 
-                        alert("Credenciales invalidas");
+                    }else if (respuesta.estatus==0){
+                      alert("Credenciales invalidas");
+                    }
+                       
+
+
+                        
+                        
                 },
                 error:function(error){
                     console.error(error);

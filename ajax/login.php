@@ -1,6 +1,7 @@
 <?php
-    session_start(); //Tiene que ser la primera funcion.
-    $archivo = fopen("../data/usuarios.json","r");
+ /*
+ session_start(); //Tiene que ser la primera funcion.
+    $archivo = fopen("../data/json","r");
     while(($linea=fgets($archivo))){
         $registro = json_decode($linea,true);
         if (
@@ -21,4 +22,5 @@
     $registro["estatus"] = "0"; //Acceso no autorizado
     $registro["mensaje"] = "Acceso no autorizado";
     echo json_encode($registro);
+    */
 ?>

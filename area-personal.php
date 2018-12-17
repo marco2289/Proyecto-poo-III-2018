@@ -3,6 +3,7 @@
     if (!isset($_SESSION["No_Cuenta"]))
         header("Location: no-autorizado.html");//Redireccion con PHP
         $llave=$_SESSION["No_Cuenta"];
+     
 ?>
 
 <html>
@@ -66,9 +67,15 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><?php echo $_SESSION["nombre"];  ?> </a>
+          </li> <hr>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php echo $_SESSION["nombre"];  ?> </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="loggin-estudiantes.html">Estudiantes</a>
+            <a class="dropdown-item" href="#">Cerrar Secion</a>
+  
+            
+          </div>
           </li>
       </ul>
     </div>
@@ -124,7 +131,7 @@
                     <h3 href="#" class="list-group-item list-group-item-action active" id="titulo">
                       Mi espacio personal
                     </h3>
-                    <a href="#" class="list-group-item list-group-item-action" id="titulo2">Historial academico</a>
+                    <a href="historial - copia.php" class="list-group-item list-group-item-action" id="titulo2">Historial academico</a>
                     <a href="#" class="list-group-item list-group-item-action" id="titulo2" >Matricula</a>
                     <a href="#" class="list-group-item list-group-item-action" id="titulo2" >Matricula de laboratorio</a>
                     <a href="#" class="list-group-item list-group-item-action " id="titulo2" >Cambio de clave</a>

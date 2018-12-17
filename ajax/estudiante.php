@@ -11,6 +11,7 @@ session_start();
             $registro["mensaje"]="Acceso autorizado";
             $_SESSION["No_Cuenta"]=$_POST["No_Cuenta"];
             $_SESSION["jerarquia"]=$registro["jerarquia"];
+            $_SESSION["nombre"] = $registro["nombre"];
             echo json_encode($registro);
             exit;
         }
