@@ -1,11 +1,11 @@
 <?php
 session_start();
-    $archivo = fopen("../data/docentes.json","r");
+    $archivo = fopen("../data/estudiantes.json","r");
     while(($linea=fgets($archivo))){
         $registro=json_decode($linea,true);
         if(
             $_POST["No_Cuenta"]==$registro["No_Cuenta"]&&
-            $_POST["password"]==$registro["password"] && $registro["jerarquia"]=="Catedratico"
+            $_POST["password"]==$registro["password"] && $registro["jerarquia"]=="estudiante"
         ){
             $registro["estatus"]="1";
             $registro["mensaje"]="Acceso autorizado";

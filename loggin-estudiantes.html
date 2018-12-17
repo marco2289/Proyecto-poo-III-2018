@@ -75,15 +75,15 @@
         <script>
         $("#btn-login").click(function(){
             $.ajax({
-                url:"ajax/login.php",
-                data:"usuario="+$("#cuenta").val() + "&password="+$("#password").val(),
+                url:"ajax/estudiante.php",
+                data:"No_Cuenta="+$("#cuenta").val() + "&password="+$("#password").val(),
                 dataType:"json",
                 method:"POST",
                 success:function(respuesta){
                     console.log(respuesta);
                     if (respuesta.estatus == 1){
-                        if (respuesta.tipoUsuario=="cajero")
-                            window.location.href = "cajero.php";//redireccionar
+                        if (respuesta.jerarquia=="estudiante")
+                            window.location.href = "area-personal.php";//redireccionar
                         else if (respuesta.tipoUsuario=="admin")
                             window.location.href = "admin.php";//redireccionar
                     }else 

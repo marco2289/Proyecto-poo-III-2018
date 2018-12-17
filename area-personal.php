@@ -1,3 +1,10 @@
+<?php 
+    session_start();  
+    if (!isset($_SESSION["No_Cuenta"]))
+        header("Location: no-autorizado.html");//Redireccion con PHP
+        $llave=$_SESSION["No_Cuenta"];
+?>
+
 <html>
 
 <!DOCTYPE html>
@@ -41,6 +48,7 @@
             <a class="dropdown-item" href="loggin-estudiantes.html">Estudiantes</a>
             <a class="dropdown-item" href="#">Profesores</a>
             <a class="dropdown-item" href="#">Jefes de Departamento</a>
+            
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -59,6 +67,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Pricing</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><?php echo $_SESSION["nombre"];  ?> </a>
+          </li>
       </ul>
     </div>
   </nav>
@@ -68,33 +79,42 @@
       
         <div id="loggin2">
             <table class="table table-borderless table-sm" id="tabla-enc">
-              <h4 id="historial"> Informacion General</h4> <hr>
-                <thead>
-                  <tr>
-                    
-                  </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">Carrera:</th>
-                        <td>Ingenieria en sistemas</td>
-                        <th scope="row" >Centro:</th>
-                        <td>UNAH-CU</td>
-                      </tr>
-                  <tr>
-                    <th scope="row">Nombre:</th>
-                    <td>Marco Tulio Medina Matute</td>
-                    <th scope="row" >Indice Global:</th>
-                    <td>85%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Cuenta:</th>
-                    <td>20181012042</td>
-                    <th scope="row" >Indice Periodo :</th>
-                    <td>80%</td>
-                  </tr>
-                  
-                </tbody>
+            <?php
+                            $archivo = fopen("data/estudiantes.json","r");
+                            while(($linea = fgets($archivo))){
+                                $registro = json_decode($linea,true);
+                                if ($llave == $registro["No_Cuenta"]){
+                                    echo    
+                                    '<h4 id="historial"> Informacion General</h4> <hr>
+                                    <thead>
+                                      <tr>
+                                        
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">Carrera:</th>
+                                            <td>'.$registro['carrera'].'</td>
+                                            <th scope="row" >Centro:</th>
+                                            <td>'.$registro['centro'].'</td>
+                                          </tr>
+                                      <tr>
+                                        <th scope="row">Nombre:</th>
+                                      <td>'.$registro['nombre'].' '.$registro['apellido'].'</td>
+                                        <th scope="row" >Estudiante categoria:</th>
+                                        <td>'.$registro['categoria'].'</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">Cuenta:</th>
+                                        <td>'.$registro['No_Cuenta'].'</td>
+                                        
+                                      </tr>
+                                    </tbody>';
+                                    break;
+                                }
+                            }
+                            fclose($archivo);
+                    ?>
                 
                 
               </table>
