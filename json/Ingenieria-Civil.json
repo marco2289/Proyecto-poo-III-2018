@@ -1,0 +1,74 @@
+{"carrera":"Ingenieria Civil","codigo":"EG-011","asignatura":"Español","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"FF-101","asignatura":"Filosofía","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"SC-101","asignatura":"Sociologia","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"HH-101","asignatura":"Historia de Honduras","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"OPT-1","asignatura":"Ciencias Naturales","uv":""}
+{"carrera":"Ingenieria Civil","codigo":"OPT-2","asignatura":"Humanidades","uv":"3"}
+{"carrera":"Ingenieria Civil","codigo":"OPT-3","asignatura":"Educacion Artistica o Deporte","uv":"3"}
+{"carrera":"Ingenieria Civil","codigo":"IN-101","asignatura":"Ingles I","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"IN-102","asignatura":"Ingles II","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"IN-103","asignatura":"Ingles III","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"MM-110","asignatura":"Matematicas 1","uv":"5"}
+{"carrera":"Ingenieria Civil","codigo":"II-111","asignatura":"Introduccion a la Ingenieria Civil","uv":"3"}
+{"carrera":"Ingenieria Civil","codigo":"MM-201","asignatura":"Calculo I","uv":"5"}
+{"carrera":"Ingenieria Civil","codigo":"MM-211","asignatura":"Vectores y Matrices","uv":"3"}
+{"carrera":"Ingenieria Civil","codigo":"IC-200","asignatura":"Programación I","uv":"3"}
+{"carrera":"Ingenieria Civil","codigo":"MM-202","asignatura":"Calculo II","uv":"5"}
+{"carrera":"Ingenieria Civil","codigo":"II-211","asignatura":"Estadistica","uv":"3"}
+{"carrera":"Ingenieria Civil","codigo":"MM-411","asignatura":"Ecuaciones Diferenciales","uv":"3"}
+{"carrera":"Ingenieria Civil","codigo":"QQ-100","asignatura":"Quimica Fundamental","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"FS-100","asignatura":"Física I","uv":"5"}
+{"carrera":"Ingenieria Civil","codigo":"DQ-101","asignatura":"Dibujo I","uv":"2"}
+{"carrera":"Ingenieria Civil","codigo":"IC-302","asignatura":"Probabilidad y Estad.Aplicada","uv":"3"}
+{"carrera":"Ingenieria Civil","codigo":"FS-200","asignatura":"Física II","uv":"5"}
+{"carrera":"Ingenieria Civil","codigo":"IM-234","asignatura":"Estática","uv":"5"}
+{"carrera":"Ingenieria Civil","codigo":"IC-350","asignatura":"Topografía I","uv":"5"}
+{"carrera":"Ingenieria Civil","codigo":"IC-303","asignatura":"Análisis Numérico","uv":"3"}
+{"carrera":"Ingenieria Civil","codigo":"IC-463","asignatura":"Resistencia de Materiales I","uv":"5"}
+{"carrera":"Ingenieria Civil","codigo":"IC-362","asignatura":"Dinámica","uv":"3"}
+{"carrera":"Ingenieria Civil","codigo":"IC-471","asignatura":"Mecánica de Fluidos","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"IC-451","asignatura":"Topografía II","uv":"5"}
+{"carrera":"Ingenieria Civil","codigo":"DQ-102","asignatura":"Dibujo II","uv":"2"}
+{"carrera":"Ingenieria Civil","codigo":"IC-581","asignatura":"Geología","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"IC-564","asignatura":"Resistencia de Materiales I","uv":"5"}
+{"carrera":"Ingenieria Civil","codigo":"IC-573","asignatura":"Hidrología I","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"IC-572","asignatura":"Hidráullica Aplicada","uv":"5"}
+{"carrera":"Ingenieria Civil","codigo":"IC-691","asignatura":"Administación General","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"DQ-104","asignatura":"Dibujo Aplicado","uv":"2"}
+{"carrera":"Ingenieria Civil","codigo":"IC-682","asignatura":"Materiales de Construcción","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"IC-683","asignatura":"Mecánica de Suelos I","uv":"5"}
+{"carrera":"Ingenieria Civil","codigo":"IC-674","asignatura":"Ingeniería Sanitaria I","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"IC-840","asignatura":"Instalaciones Eléctricas","uv":"2"}
+{"carrera":"Ingenieria Civil","codigo":"IC-970","asignatura":"Irrigación y Avenamiento","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"IC-665","asignatura":"Análisis Estructural I","uv":"5"}
+{"carrera":"Ingenieria Civil","codigo":"IC-801","asignatura":"Diseño Geométrico de Carreteras","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"IC-776","asignatura":"Ingeniería Ambiental","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"IC-784","asignatura":"Mecánica de Suelos II","uv":"5"}
+{"carrera":"Ingenieria Civil","codigo":"IC-775","asignatura":"Ingeniería Sanitaria II","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"IC-766","asignatura":"Análisis Estructural II","uv":"5"}
+{"carrera":"Ingenieria Civil","codigo":"IC-792","asignatura":"Organización y Métodos","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"IC-903","asignatura":"Planificación Urbana","uv":"3"}
+{"carrera":"Ingenieria Civil","codigo":"IC-944","asignatura":"Instalaciones Sanitarias","uv":"2"}
+{"carrera":"Ingenieria Civil","codigo":"IC-868","asignatura":"Diseño Estructural","uv":"5"}
+{"carrera":"Ingenieria Civil","codigo":"867","asignatura":"Estructuras de Concreto I","uv":"5"}
+{"carrera":"Ingenieria Civil","codigo":"IC-794","asignatura":"Procedimientos y Equipo de Construcción","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"IC-793","asignatura":"Costos y Presupuestos","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"IC-802","asignatura":"Diseño de Pavimentos","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"IC-990","asignatura":"Ingeniería de Puentes","uv":"5"}
+{"carrera":"Ingenieria Civil","codigo":"IC-958","asignatura":"Estructuras de Concretos II","uv":"5"}
+{"carrera":"Ingenieria Civil","codigo":"IC-895","asignatura":"Ingeniería Económica","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"","asignatura":"Electiva Transporte","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"","asignatura":"Electiva Geotecnia","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"IC-014","asignatura":"Seminario de Investigación","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"","asignatura":"Electiva Hidrotecnia","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"","asignatura":"Electiva Estructuras","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"IC-952","asignatura":"Estabilidad de Taludes","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"IC-953","asignatura":"Diseño de Cimentaciones","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"IC-954","asignatura":"Estabilidad de Suelos","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"IC-957","asignatura":"Análisis Estructural III","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"IC-959","asignatura":"Concreto Pre Esforzado","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"IC-961","asignatura":"Introducción a la Dinámica Estructural e Ing. Sismica","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"IC-794","asignatura":"Procedimientos y Equipo de Construcción","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"IC-968","asignatura":"Hidrologia II","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"IC-969","asignatura":"Agua Subterráneas","uv":"4"}
+{"carrera":"Ingenieria Civil","codigo":"IC-971","asignatura":"Diseño de Obras Hidráulicas","uv":"4"}

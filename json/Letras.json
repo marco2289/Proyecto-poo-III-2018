@@ -1,0 +1,30 @@
+{"carrera":"Licenciatura en Letras","codigo":"EG-011","asignatura":"Español","uv":"4","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Letras","codigo":"FF-101","asignatura":"Filosofía","uv":"4","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Letras","codigo":"HH-101","asignatura":"Historia de Honduras","uv":"4","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Letras","codigo":"LG-106","asignatura":"Introducción a la Lingüística","uv":"4","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Letras","codigo":"LT-106","asignatura":"Introducción a la Literatura","uv":"3","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Letras","codigo":"BI-130","asignatura":"Educación Ambiental","uv":"5","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Letras","codigo":"SC-101","asignatura":"Sociología","uv":"5","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Letras","codigo":"LT-107","asignatura":"Lenguas y Culturas de Honduras","uv":"3","requisito":"HH-101","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Letras","codigo":"LG-107","asignatura":"Redacción de Trabajos Académicos","uv":"6","requisito":"EG-011","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Letras","codigo":"LT-165","asignatura":"Análisis de textos Literarios","uv":"2","requisito":"LT-106","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Letras","codigo":"LG-115","asignatura":"Fonética y Fonología","uv":"4","requisito":"LG-106","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Letras","codigo":"LT-116","asignatura":"Semiótica","uv":"6","requisito":"LG-106","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Letras","codigo":"LG-125","asignatura":"Morfosintaxis I","uv":"8","requisito":"LG-106","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Letras","codigo":"LT-205","asignatura":"Literatura Universal I","uv":"4","requisito":"LT-106","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Letras","codigo":"LG-215","asignatura":"Morfosintaxis II","uv":"2","requisito":"LG-125","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Letras","codigo":"LG-305","asignatura":"Historia de la Lengua Española","uv":"3","requisito":"LG-115","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Letras","codigo":"LT-215","asignatura":"Literatura Universal II","uv":"3","requisito":"LT-205","requisito2":"MH-111"}
+{"carrera":"Licenciatura en Letras","codigo":"OPT-1","asignatura":"Educación Artística","uv":"2","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Letras","codigo":"OPT-2","asignatura":"Educación Física","uv":"4","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Letras","codigo":"LT-305","asignatura":"Literatura Española ","uv":"3","requisito":"LT-215","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Letras","codigo":"LG-135","asignatura":"Semántica","uv":"8","requisito":"LG-106","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Letras","codigo":"LT-405","asignatura":"Literatura Latinoamericana","uv":"3","requisito":"LT-215","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Letras","codigo":"LG-345","asignatura":"El Español de América","uv":"3","requisito":"LG-305","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Letras","codigo":"LT-315","asignatura":"Literatura Española II","uv":"3","requisito":"LT-305","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Letras","codigo":"LG-235","asignatura":"Psicolingüística","uv":"2","requisito":"LG-135","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Letras","codigo":"LG-355","asignatura":"El Español de Honduras","uv":"4","requisito":"LG-345","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Letras","codigo":"LT-605","asignatura":"Literatura Hondureña","uv":"9","requisito":"LT-405","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Letras","codigo":"MLG-325M","asignatura":"Dialectología","uv":"1","requisito":"LG-305","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Letras","codigo":"LG-910","asignatura":"Seminario de Fonética y Fonología II","uv":"3","requisito":"LG-115","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Letras","codigo":"LG-705 ","asignatura":"Historia de la Lingüística ","uv":"3","requisito":"FH-116","requisito":"QQ-214"}

@@ -1,0 +1,25 @@
+{"carrera":"Licenciatura en Musica","codigo":"EG-011","asignatura":"Español","uv":"4","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Musica","codigo":"BI-121","asignatura":"Biologia General I","uv":"5","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Musica","codigo":"BI-122","asignatura":"Biologia General II","uv":"5","requisito":"BI-121","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Musica","codigo":"FF-101","asignatura":"Filosofía","uv":"4","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Musica","codigo":"SC-101","asignatura":"Sociologia","uv":"4","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Musica","codigo":"HH-101","asignatura":"Historia de Honduras","uv":"4","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Musica","codigo":"OPT-1","asignatura":"Ciencias Naturales","uv":"","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Musica","codigo":"OPT-2","asignatura":"Humanidades","uv":"3","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Musica","codigo":"OPT-3","asignatura":"Educacion Artistica o Deporte","uv":"3","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Musica","codigo":"OPT-4","asignatura":"Idioma Extranjero","uv":"3","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Musica","codigo":"EE-102","asignatura":"Español II","uv":"4","requisito":"EG-011","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Musica","codigo":"MM-100","asignatura":"Intro. a la Esatdistica Social","uv":"4","requisito":"BI-122","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Musica","codigo":"OPT-5","asignatura":"Idioma Extranjero II","uv":"4","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Musica","codigo":"OPT-6","asignatura":"Idioma Extranjero III","uv":"4","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Musica","codigo":"RR-171-190","asignatura":"Cultura Fisica","uv":"4","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Musica","codigo":"ML-130","asignatura":"Instrumento I","uv":"4","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Musica","codigo":"ML-230","asignatura":"Instrumento II","uv":"4","requisito":"ML-130","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Musica","codigo":"ML-330","asignatura":"Instrumento III","uv":"4","requisito":"ML-230","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Musica","codigo":"ML-430","asignatura":"Instrumento IV","uv":"4","requisito":"ML-330","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Musica","codigo":"ML-530","asignatura":"Instrumento V","uv":"4","requisito":"ML-430","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Musica","codigo":"ML-630","asignatura":"Instrumento VI","uv":"4","requisito":"ML-530","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Musica","codigo":"ML-730","asignatura":"Instrumento VII","uv":"4","requisito":"ML-630","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Musica","codigo":"ML-830","asignatura":"Instrumento VIII","uv":"4","requisito":"ML-730","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Musica","codigo":"ML-930","asignatura":"Instrumento IX","uv":"4","requisito":"ML-830","requisito2":"ninguno"}
+{"carrera":"Licenciatura en Musica","codigo":"ML-03","asignatura":"Instrumento X","uv":"4","requisito":"ML-930","requisito2":"ninguno"}

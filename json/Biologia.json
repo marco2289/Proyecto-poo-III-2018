@@ -1,0 +1,24 @@
+{"carrera":"Licenciatura En Biologia","codigo":"EG-011","asignatura":"Español","uv":"4","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura En Biologia","codigo":"BI-121","asignatura":"Biologia General I","uv":"5","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura En Biologia","codigo":"BI-122","asignatura":"Biologia General II","uv":"5","requisito":"BI-121","requisito2":"ninguno"}
+{"carrera":"Licenciatura En Biologia","codigo":"FF-101","asignatura":"Filosofía","uv":"4","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura En Biologia","codigo":"SC-101","asignatura":"Sociologia","uv":"4","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura En Biologia","codigo":"HH-101","asignatura":"Historia de Honduras","uv":"4","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura En Biologia","codigo":"OPT-1","asignatura":"Ciencias Naturales","uv":"","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura En Biologia","codigo":"OPT-2","asignatura":"Humanidades","uv":"3","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura En Biologia","codigo":"OPT-3","asignatura":"Educacion Artistica o Deporte","uv":"3","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura En Biologia","codigo":"OPT-4","asignatura":"Idioma Extranjero","uv":"3","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura En Biologia","codigo":"MM-112","asignatura":"Matematicas 1","uv":"5","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura En Biologia","codigo":"BI-213","asignatura":"Bioestadistica","uv":"4","requisito":"MM-112","requisito2":"ninguno"}
+{"carrera":"Licenciatura En Biologia","codigo":"BI-221","asignatura":"Botanica General","uv":"4","requisito":"BI-122","requisito2":"ninguno"}
+{"carrera":"Licenciatura En Biologia","codigo":"QQ-103","asignatura":"Quimica General","uv":"4","requisito":"ninguno","requisito2":"ninguno"}
+{"carrera":"Licenciatura En Biologia","codigo":"BI-220","asignatura":"Zoologia de Vertebrados","uv":"4","requisito":"BI-210","requisito2":"ninguno"}
+{"carrera":"Licenciatura En Biologia","codigo":"BI-313","asignatura":"Taxonomia Vegetal I","uv":"4","requisito":"BI-221","requisito2":"ninguno"}
+{"carrera":"Licenciatura En Biologia","codigo":"QQ-221","asignatura":"Quimica Analitica","uv":"4","requisito":"QQ-103","requisito2":"ninguno"}
+{"carrera":"Licenciatura En Biologia","codigo":"BI-323","asignatura":"Taxonomia Vegetal II","uv":"4","requisito":"BI-313","requisito2":"ninguno"}
+{"carrera":"Licenciatura En Biologia","codigo":"BI-316","asignatura":"Tecnicas Histologicas","uv":"4","requisito":"BI-220","requisito2":"ninguno"}
+{"carrera":"Licenciatura En Biologia","codigo":"BI-423","asignatura":"Acuacultura","uv":"4","requisito":"BI-220","requisito2":"ninguno"}
+{"carrera":"Licenciatura En Biologia","codigo":"BI-321","asignatura":"Anatomia Comparada","uv":"4","requisito":"BI-220","requisito2":"ninguno"}
+{"carrera":"Licenciatura En Biologia","codigo":"BI-239","asignatura":"Anatomia Vegetal","uv":"4","requisito":"BI-323","requisito2":"ninguno"}
+{"carrera":"Licenciatura En Biologia","codigo":"BI-315","asignatura":"Metodos de Investigacion","uv":"4","requisito":"BI-220","requisito2":"BI-213"}
+{"carrera":"Licenciatura En Biologia","codigo":"BI-437","asignatura":"piscicultura","uv":"4","requisito":"BI-423","requisito2":"ninguno"}

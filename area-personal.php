@@ -1,12 +1,3 @@
-<?php 
-    session_start();  
-    if (!isset($_SESSION["usuario"]))
-        header("Location: no-autorizado.html");//Redireccion con PHP
-?>
-
-
-
-
 <html>
 
 <!DOCTYPE html>
@@ -47,7 +38,7 @@
             Pregrado<span class="sr-only">(current)</span>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="index.html">Estudiantes</a>
+            <a class="dropdown-item" href="loggin-estudiantes.html">Estudiantes</a>
             <a class="dropdown-item" href="#">Profesores</a>
             <a class="dropdown-item" href="#">Jefes de Departamento</a>
           </div>
@@ -74,6 +65,41 @@
    
    
     <div id="loggin" > 
+      
+        <div id="loggin2">
+            <table class="table table-borderless table-sm" id="tabla-enc">
+              <h4 id="historial"> Informacion General</h4> <hr>
+                <thead>
+                  <tr>
+                    
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Carrera:</th>
+                        <td>Ingenieria en sistemas</td>
+                        <th scope="row" >Centro:</th>
+                        <td>UNAH-CU</td>
+                      </tr>
+                  <tr>
+                    <th scope="row">Nombre:</th>
+                    <td>Marco Tulio Medina Matute</td>
+                    <th scope="row" >Indice Global:</th>
+                    <td>85%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Cuenta:</th>
+                    <td>20181012042</td>
+                    <th scope="row" >Indice Periodo :</th>
+                    <td>80%</td>
+                  </tr>
+                  
+                </tbody>
+                
+                
+              </table>
+          
+          </div>
             <div class="list-group">
                     <h3 href="#" class="list-group-item list-group-item-action active" id="titulo">
                       Mi espacio personal
@@ -84,11 +110,6 @@
                     <a href="#" class="list-group-item list-group-item-action " id="titulo2" >Cambio de clave</a>
                     <a href="#" class="list-group-item list-group-item-action " id="titulo2" >Ver calificaciones del periodo</a>
                   </div>
-       
-       
-
-
-
     </div>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
