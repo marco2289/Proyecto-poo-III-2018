@@ -143,6 +143,26 @@ class Alumno{
             if(!file_exists("../data/alumnos/alumnos.json")){
                 $archivo = fopen("../data/alumnos/alumnos.json", "w");
             }
+
+
+
+             //obtener datos de la seccion/////////////
+             $archivoCarrera = fopen("../data/carreras/".$_POST["facultad"]."/carreras.json","r");   
+             while(($linea = fgets($archivoCarrera))){
+                 $registroCarrera = json_decode($linea,true);
+                 if($registroCarrera["carrera"] == $_POST["carrera"]){
+                     //Obtener datos
+                     $registroCod["codCarrera"] =$registroCarrera["codigo"];
+                        if(!file_exists("../data/matricula/".$_POST["facultad"]."/".$registroCod["codCarrera"]."/".$_POST["cuenta"].".json")){
+                            $archivo = fopen("../data/matricula/".$_POST["facultad"]."/".$registroCod["codCarrera"]."/".$_POST["cuenta"].".json", "w");
+                        }
+                     break;
+                 }
+             }
+             fclose($archivoCarrera);
+
+           ////////////////////////////////////////////
+
             $archivo = fopen("../data/alumnos/alumnos.json", "a+");
            
             $registro["nombre"] = $this->nombre;

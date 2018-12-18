@@ -1,0 +1,82 @@
+{"nombre":"signe","apellido":"luque","cuenta":"2016","ID":"0801","pass":"1111","correo":"signe@","facultad":"ingenieria","carrera":"Ingenieria en Sistemas","centro":"Ciudad Universitaria"}
+{"nombre":"oscar","apellido":"fonseca","cuenta":"2013","ID":"0801","pass":"0000","correo":"oscar@","facultad":"ingenieria","carrera":"Ingenieria en Sistemas","centro":"Ciudad Universitaria"}
+{"nombre":"Alejandra","apellido":"Martinez","cuenta":"2018001","ID":"0801199814100","pass":"2201","correo":"Alejandra@","facultad":"sociales","carrera":"Psicologia","centro":"Ciudad Universitaria"}
+{"nombre":"Alejandro","apellido":"Catass","cuenta":"2018002","ID":"0801199814101","pass":"2202","correo":"Alejandro@","facultad":"sociales","carrera":"Psicologia","centro":"Ciudad Universitaria"}
+{"nombre":"alvaro","apellido":"Diego","cuenta":"2018003","ID":"0801199814102","pass":"2202","correo":"\u00c1lvaro@","facultad":"sociales","carrera":"ANTROPOLOGIA","centro":"Ciudad Universitaria"}
+{"nombre":"Ana","apellido":"perez","cuenta":"2018003","ID":"0801199814102","pass":"2202","correo":"Ana@","facultad":"sociales","carrera":"ANTROPOLOGIA","centro":"Ciudad Universitaria"}
+{"nombre":"Antonio","apellido":"Antonio","cuenta":"2018004","ID":"0801199814104","pass":"2202","correo":"Antonio@","facultad":"sociales","carrera":"PERIODISMO","centro":"Ciudad Universitaria"}
+{"nombre":"David","apellido":"Antonio","cuenta":"2018005","ID":"0801199814105","pass":"2205","correo":"David@","facultad":"sociales","carrera":"PERIODISMO","centro":"Ciudad Universitaria"}
+{"nombre":"German","apellido":"German","cuenta":"2018006","ID":"0801199814106","pass":"2206","correo":"German@","facultad":"sociales","carrera":"TRABAJO SOCIAL","centro":"Ciudad Universitaria"}
+{"nombre":"Vicente","apellido":"German","cuenta":"2018007","ID":"0801199814107","pass":"2207","correo":"Vicente@","facultad":"sociales","carrera":"TRABAJO SOCIAL","centro":"Ciudad Universitaria"}
+{"nombre":"Aurora","apellido":"Arias","cuenta":"2018008","ID":"0801199814108","pass":"2208","correo":"Aurora@","facultad":"sociales","carrera":"HISTORIA","centro":"Ciudad Universitaria"}
+{"nombre":"Azahara","apellido":"Arias","cuenta":"2018009","ID":"0801199814109","pass":"2209","correo":"Arias@","facultad":"sociales","carrera":"HISTORIA","centro":"Ciudad Universitaria"}
+{"nombre":"dora","apellido":"hernandez","cuenta":"2018010","ID":"0801199814110","pass":"2210","correo":"Aurora@","facultad":"sociales","carrera":"SOCIOLOGIA","centro":"Ciudad Universitaria"}
+{"nombre":"Jimenez","apellido":"Simen","cuenta":"2018011","ID":"0801199814111","pass":"2210","correo":"Jim\u00e9nez@","facultad":"sociales","carrera":"SOCIOLOGIA","centro":"Ciudad Universitaria"}
+{"nombre":"Bernabel","apellido":"Simen","cuenta":"2018012","ID":"0801199814112","pass":"2212","correo":"Bernab\u00e9@","facultad":"sociales","carrera":"DESARROLLO LOCAL","centro":"Ciudad Universitaria"}
+{"nombre":"Celia","apellido":"Simon","cuenta":"2018013","ID":"0801199814113","pass":"2212","correo":"Celia@","facultad":"sociales","carrera":"DESARROLLO MUNICIPAL","centro":"Ciudad Universitaria"}
+{"nombre":"Cristina","apellido":"Fernandez","cuenta":"2018014","ID":"0801199814114","pass":"2214","correo":"Celia@","facultad":"sociales","carrera":"DESARROLLO MUNICIPAL","centro":"Ciudad Universitaria"}
+{"nombre":"Daniela","apellido":"Fernandez","cuenta":"2018015","ID":"0801199814115","pass":"2214","correo":"Daniela@","facultad":"sociales","carrera":"DEMOGRAFIA","centro":"Ciudad Universitaria"}
+{"nombre":"Diego","apellido":"lopez","cuenta":"2018016","ID":"0801199814116","pass":"2216","correo":"Diego@","facultad":"sociales","carrera":"DEMOGRAFIA","centro":"Ciudad Universitaria"}
+{"nombre":"Elba","apellido":"lopez","cuenta":"2018017","ID":"0801199814117","pass":"2216","correo":"Elba@","facultad":"sociales","carrera":"PSICOLOGIA INDUSTRIAL","centro":"Ciudad Universitaria"}
+{"nombre":"Antonio","apellido":"Diaz","cuenta":"2018017","ID":"0801199814117","pass":"2216","correo":"D\u00edaz@","facultad":"sociales","carrera":"PSICOLOGIA INDUSTRIAL","centro":"Ciudad Universitaria"}
+{"nombre":"Esther","apellido":"Martinez","cuenta":"2018018","ID":"0801199814118","pass":"2218","correo":"Mart\u00ednez@","facultad":"sociales","carrera":"LENGUAS SE\u00d1AS","centro":"Ciudad Universitaria"}
+{"nombre":"marco","apellido":"Cinovas","cuenta":"2018019","ID":"0801199814119","pass":"2219","correo":"C\u00e1novas@","facultad":"sociales","carrera":"LENGUAS SE\u00d1AS","centro":"Ciudad Universitaria"}
+{"nombre":"marco","apellido":"Catasis","cuenta":"2018020","ID":"0801199814120","pass":"2220","correo":"Catas\u00fas@","facultad":"sociales","carrera":"LENGUAS SE\u00d1AS","centro":"UNAH Valle de Sula"}
+{"nombre":"Antonio","apellido":"perez","cuenta":"2018021","ID":"0801199814121","pass":"2221","correo":"Cpereztas\u00fas@","facultad":"sociales","carrera":"PSICOLOGIA INDUSTRIAL","centro":"UNAH-TEC Danli"}
+{"nombre":"Vicente","apellido":"fonseca","cuenta":"2018022","ID":"0801199814122","pass":"2222","correo":"Vicente@","facultad":"sociales","carrera":"DEMOGRAFIA","centro":"UNAH-TEC AGUAN"}
+{"nombre":"Diaz","apellido":"Hernandez","cuenta":"2018022","ID":"0801199814122","pass":"2222","correo":"Hern\u00e1ndez@","facultad":"sociales","carrera":"DESARROLLO MUNICIPAL","centro":"UNAH-CURC"}
+{"nombre":"Francisco","apellido":"diaz","cuenta":"2018023","ID":"0801199814123","pass":"2223","correo":"Francisco@","facultad":"sociales","carrera":"DESARROLLO LOCAL","centro":"UNAH-CURLA"}
+{"nombre":"Frank","apellido":"Parrado","cuenta":"201802","ID":"0801199814124","pass":"2224","correo":"Frank@","facultad":"sociales","carrera":"SOCIOLOGIA","centro":"UNAH-CURLP"}
+{"nombre":"Helena","apellido":"Jimenez","cuenta":"2018025","ID":"0801199814125","pass":"2225","correo":"Helena@","facultad":"sociales","carrera":"HISTORIA","centro":"UNAH-CUROC"}
+{"nombre":"Javier","apellido":"Palanco","cuenta":"2018026","ID":"0801199814126","pass":"2225","correo":"Javier@","facultad":"sociales","carrera":"PERIODISMO","centro":"UNAH-CURNO"}
+{"nombre":"Lenice","apellido":"Martinez","cuenta":"2018027","ID":"0801199814127","pass":"2027","correo":"Lenice@","facultad":"espaciales","carrera":"INFORMACION GEOGRAFICA","centro":"Ciudad Universitaria"}
+{"nombre":"Libia","apellido":"Ramirez","cuenta":"2018028","ID":"0801199814128","pass":"2028","correo":"Libia@","facultad":"espaciales","carrera":"ASTRONOMIA","centro":"Ciudad Universitaria"}
+{"nombre":"Juan","apellido":"pablo","cuenta":"2018029","ID":"0801199814129","pass":"2029","correo":"Juan@","facultad":"espaciales","carrera":"GESTION TERRITORIO","centro":"Ciudad Universitaria"}
+{"nombre":"Antonio","apellido":"Garcia","cuenta":"2018030","ID":"0801199814130","pass":"3030","correo":"Antonio@","facultad":"economia","carrera":"ADMINISTRACION EMPRESA","centro":"Ciudad Universitaria"}
+{"nombre":"Laura","apellido":"diaz","cuenta":"2018031","ID":"0801199814131","pass":"3030","correo":"Laura@","facultad":"economia","carrera":"ADMINISTRACION PUBLICA","centro":"Ciudad Universitaria"}
+{"nombre":"Lorenzo","apellido":"pablo","cuenta":"2018032","ID":"0801199814132","pass":"3032","correo":"Lorenzo@","facultad":"economia","carrera":"ECONOMIA","centro":"Ciudad Universitaria"}
+{"nombre":"Luciana","apellido":"Ramirez","cuenta":"2018033","ID":"0801199814133","pass":"3033","correo":"Ram\u00edrez@","facultad":"economia","carrera":"CONTADURIA PUBLICA","centro":"Ciudad Universitaria"}
+{"nombre":"Ramirez","apellido":"Cardenas","cuenta":"2018034","ID":"0801199814134","pass":"3034","correo":"C\u00e1rdenas@","facultad":"economia","carrera":"ADMINISTRACION ADUANERA","centro":"Ciudad Universitaria"}
+{"nombre":"Lenice","apellido":"Cardenas","cuenta":"2018034","ID":"0801199814134","pass":"3034","correo":"Lenice@","facultad":"economia","carrera":"COMERCIO INTERNACIONAL","centro":"Ciudad Universitaria"}
+{"nombre":"Lidia","apellido":"Rubio","cuenta":"2018035","ID":"0801199814135","pass":"3035","correo":"Lidia@","facultad":"economia","carrera":"MERCADOTECNIA","centro":"Ciudad Universitaria"}
+{"nombre":"Magali","apellido":"rey","cuenta":"2018036","ID":"0801199814136","pass":"3036","correo":"rey@","facultad":"economia","carrera":"ECOTURISMO","centro":"Ciudad Universitaria"}
+{"nombre":"Luciana","apellido":"rey","cuenta":"2018037","ID":"0801199814137","pass":"3036","correo":"Luciana@","facultad":"economia","carrera":"MICROFINANZAS","centro":"Ciudad Universitaria"}
+{"nombre":"Teresa","apellido":"Torres","cuenta":"2018038","ID":"0801199814138","pass":"3038","correo":"Teresa@","facultad":"economia","carrera":"ALIMENTOS BEBIDAS","centro":"Ciudad Universitaria"}
+{"nombre":"Manoel","apellido":"Garc\u00eda","cuenta":"2018039","ID":"0801199814139","pass":"3039","correo":"Manoel@","facultad":"economia","carrera":"GESTION INFORMATICA","centro":"Ciudad Universitaria"}
+{"nombre":"Schreuders","apellido":"Nascimento","cuenta":"2018040","ID":"0801199814140","pass":"3040","correo":"Schreuders@","facultad":"economia","carrera":"TELECOMUNICACIONES","centro":"Ciudad Universitaria"}
+{"nombre":"angeles","apellido":"Borges","cuenta":"2018041","ID":"0801199814141","pass":"4071","correo":"\u00c1ngeles@","facultad":"ciencias","carrera":"Matematicas","centro":"Ciudad Universitaria"}
+{"nombre":"Marida","apellido":"S\u00e1nchez","cuenta":"2018042","ID":"0801199814142","pass":"4072","correo":"Mar\u00eda@","facultad":"ciencias","carrera":"FISICA","centro":"Ciudad Universitaria"}
+{"nombre":"Marta","apellido":"meja","cuenta":"2018043","ID":"0801199814143","pass":"4073","correo":"Marta@","facultad":"ciencias","carrera":"MICROBIOLOGIA","centro":"Ciudad Universitaria"}
+{"nombre":"Noelia","apellido":"Guti\u00e9rrez","cuenta":"2018044","ID":"0801199814144","pass":"4074","correo":"Noelia@","facultad":"ciencias","carrera":"METALURGIA","centro":"Ciudad Universitaria"}
+{"nombre":"Otan","apellido":"Guti\u00e9rrez","cuenta":"2018045","ID":"0801199814145","pass":"4075","correo":"Ot\u00f3n@","facultad":"ciencias","carrera":"FORESTERIA COMUNITARIA","centro":"Ciudad Universitaria"}
+{"nombre":"Mireia","apellido":"Revert","cuenta":"2018046","ID":"0801199814146","pass":"4076","correo":"Mireia@","facultad":"ciencias","carrera":"MANEJO DE DESASTRES","centro":"Ciudad Universitaria"}
+{"nombre":"Pedro","apellido":"Garrido","cuenta":"20180455","ID":"0801199814155","pass":"4050","correo":"Pedro@","facultad":"medicina","carrera":"Enfermeria","centro":"Ciudad Universitaria"}
+{"nombre":"Rafael","apellido":"Banderas","cuenta":"2018047","ID":"0801199814147","pass":"4057","correo":"Banderas@","facultad":"medicina","carrera":"MEDICINA","centro":"Ciudad Universitaria"}
+{"nombre":"Pires","apellido":"Alcaraz","cuenta":"2018048","ID":"0801199814148","pass":"4058","correo":"Pires@","facultad":"medicina","carrera":"NUTRICION","centro":"Ciudad Universitaria"}
+{"nombre":"Rosa","apellido":"Bernal","cuenta":"2018049","ID":"0801199814149","pass":"4058","correo":"Rosa@","facultad":"medicina","carrera":"TERAPIA FUNCIONAL","centro":"Ciudad Universitaria"}
+{"nombre":"Sergio","apellido":"Lorente","cuenta":"2018050","ID":"0801199814150","pass":"2019","correo":"Sergio@","facultad":"juridicas","carrera":"derecho","centro":"Ciudad Universitaria"}
+{"nombre":"Vanessa","apellido":"Amor","cuenta":"2018051","ID":"0801199814151","pass":"2020","correo":"Vanessa@","facultad":"juridicas","carrera":"DERECHO MARITIMO","centro":"Ciudad Universitaria"}
+{"nombre":"Rosaura","apellido":"Bernal","cuenta":"2018052","ID":"0801199814152","pass":"2021","correo":"Rosaura@","facultad":"juridicas","carrera":"DERECHO MARITIMO","centro":"Ciudad Universitaria"}
+{"nombre":"Rihab","apellido":"Dur\u00e1n","cuenta":"2018053","ID":"0801199814153","pass":"2023","correo":"Rihab@","facultad":"juridicas","carrera":"DERECHO MERCANTIL","centro":"Ciudad Universitaria"}
+{"nombre":"Romero","apellido":"perez","cuenta":"2018054","ID":"0801199814154","pass":"2024","correo":"Romero@","facultad":"juridicas","carrera":"CIENCIA POLITICA","centro":"Ciudad Universitaria"}
+{"nombre":"Coque","apellido":"Antonio","cuenta":"2018056","ID":"0801199814156","pass":"2026","correo":"Coque@","facultad":"juridicas","carrera":"DERECHO CONSTITUCIONAL","centro":"Ciudad Universitaria"}
+{"nombre":"Gaspar","apellido":"Calderaro","cuenta":"2018057","ID":"0801199814157","pass":"2027","correo":"Gaspar@","facultad":"juridicas","carrera":"DERECHO PENAL","centro":"Ciudad Universitaria"}
+{"nombre":"Xavi","apellido":"Riera","cuenta":"2018060","ID":"0801199814160","pass":"5051","correo":"Xavi@","facultad":"ingenieria","carrera":"Ingenieria en Sistemas","centro":"Ciudad Universitaria"}
+{"nombre":"Xavi","apellido":"Riera","cuenta":"2018060","ID":"0801199814160","pass":"1234","correo":"signe@","facultad":"ingenieria","carrera":"Ingenieria en Sistemas","centro":"Ciudad Universitaria"}
+{"nombre":"Mariano","apellido":"D\u00edaz","cuenta":"2018062","ID":"0801199814162","pass":"5052","correo":"Mariano@","facultad":"ingenieria","carrera":"Ingenieria Civil","centro":"Ciudad Universitaria"}
+{"nombre":"pedro","apellido":"Camarena","cuenta":"2018063","ID":"0801199814163","pass":"5053","correo":"Camarena@","facultad":"ingenieria","carrera":"Ingenieria Electrica","centro":"Ciudad Universitaria"}
+{"nombre":"Marcela","apellido":"Mart\u00ednez","cuenta":"2018064","ID":"0801199814164","pass":"5054","correo":"Mart\u00ednez@","facultad":"ingenieria","carrera":"Ingenieria Industrial","centro":"Ciudad Universitaria"}
+{"nombre":"Antonio","apellido":"Blanco","cuenta":"2018065","ID":"0801199814165","pass":"5055","correo":"Blanco@","facultad":"ingenieria","carrera":"Ingenieria Quimica","centro":"Ciudad Universitaria"}
+{"nombre":"Rafael","apellido":"Pires","cuenta":"2018070","ID":"0801199814170","pass":"7070","correo":"Rafael@","facultad":"humanidades","carrera":"PEDAGOGIA","centro":"Ciudad Universitaria"}
+{"nombre":"Italia","apellido":"Gim\u00e9nez","cuenta":"2018071","ID":"0801199814171","pass":"7071","correo":"Italia@","facultad":"humanidades","carrera":"LETRAS","centro":"Ciudad Universitaria"}
+{"nombre":"Noelia","apellido":"Banderas","cuenta":"2018072","ID":"0801199814172","pass":"7071","correo":"Noelia@","facultad":"humanidades","carrera":"FILOSOFIA","centro":"Ciudad Universitaria"}
+{"nombre":"Moreno","apellido":"P\u00e9rez","cuenta":"2018073","ID":"0801199814173","pass":"7073","correo":"Moreno@","facultad":"humanidades","carrera":"EDUCACION FISICA","centro":"Ciudad Universitaria"}
+{"nombre":"Lopes","apellido":"Isabel","cuenta":"2018074","ID":"0801199814174","pass":"7074","correo":"Lopes@","facultad":"humanidades","carrera":"LENGUAS EXTRANJERAS","centro":"Ciudad Universitaria"}
+{"nombre":"Mattias","apellido":"Fuentes","cuenta":"2018075","ID":"0801199814175","pass":"7075","correo":"Mat\u00edas@","facultad":"humanidades","carrera":"ARQUITECTURA","centro":"Ciudad Universitaria"}
+{"nombre":"Jose","apellido":"Llabata","cuenta":"2018076","ID":"0801199814176","pass":"7076","correo":"Jos\u00e9@","facultad":"humanidades","carrera":"PEDAGOGIA","centro":"Ciudad Universitaria"}
+{"nombre":"Arias","apellido":"Vicente","cuenta":"2018077","ID":"0801199814177","pass":"1010","correo":"Arias@","facultad":"quimica","carrera":"QUIMICA FARMACIA","centro":"Ciudad Universitaria"}
+{"nombre":"Antonio","apellido":"Hern\u00e1ndez","cuenta":"2018078","ID":"0801199814178","pass":"1018","correo":"Antonio@","facultad":"quimica","carrera":"QUIMICA FARMACIA","centro":"Ciudad Universitaria"}
+{"nombre":"andres","apellido":"Hern\u00e1ndez","cuenta":"2018079","ID":"0801199814179","pass":"1019","correo":"andres@","facultad":"quimica","carrera":"FARMACIA CLINICA","centro":"Ciudad Universitaria"}
+{"nombre":"ale","apellido":"martines","cuenta":"2018080","ID":"0801199814180","pass":"1080","correo":"ale@","facultad":"quimica","carrera":"CONTROL MEDICAMENTO","centro":"Ciudad Universitaria"}
+{"nombre":"Antonio","apellido":"Vicente","cuenta":"1234","ID":"001","pass":"123","correo":"Antonio@","facultad":"odonto","carrera":"seleccionar","centro":"Ciudad Universitaria"}
+{"nombre":"Signe Elizabeth ","apellido":"Henriquez Luque","cuenta":"20161002073","ID":"0801-1998-06220","pass":"hola","correo":"signe.luque@gmail.com","facultad":"ingenieria","carrera":"Ingenieria en Sistemas","centro":"Ciudad Universitaria"}

@@ -1,6 +1,4 @@
 <?php 
-    include("validar-sesion.php");
-    include("../class/class-clases.php");
 	class Matricula{
 
 		private $codCarrera;
@@ -45,23 +43,15 @@
 			$this->seccion = $seccion;
 		}
     
-        
-        public static function obtenerSeccionesMatriculadas($facultad, $codCarrera, $codClase){	
-            $archivo = fopen("../data/carreras/".$facultad."/asignaturas/secciones/".$codCarrera."-".$codClase.".json", "r");
-            $registros = array();
-            while(($linea=fgets($archivo))){
-                $registros[] = json_decode($linea,true);
-            }
-            return json_encode($registros);
-        }
-    
     
          public function guardarMatricula(){
             $respuesta = array();
-                if(!file_exists("../data/matricula/".$_POST["facultad"]."/".$_POST["codCarrera"]."/".$_SESSION["cuenta"].".json")){
-                    $archivo = fopen("../data/matricula/".$_POST["facultad"]."/".$_POST["codCarrera"]."/".$_SESSION["cuenta"].".json", "w");
-                }
-                $archivo = fopen("../data/matricula/".$_POST["facultad"]."/".$_POST["codCarrera"]."/".$_SESSION["cuenta"].".json", "a+");
+     
+                
+           if(!file_exists("../data/matricula/".$_POST["facultad"]."/".$_POST["codCarrera"]."/".$_POST["cuenta"].".json")){
+                    $archivo = fopen("../data/matricula/".$_POST["facultad"]."/".$_POST["codCarrera"]."/".$_POST["cuenta"].".json", "w");
+           }
+                $archivo = fopen("../data/matricula/".$_POST["facultad"]."/".$_POST["codCarrera"]."/".$_POST["cuenta"].".json", "a+");
     
                 //obtener datos de la seccion/////////////
                         $archivoSeccion = fopen("../data/carreras/".$_POST["facultad"]."/asignaturas/secciones/".$_POST["codCarrera"]."-".$_POST["codClase"].".json","r");   
@@ -85,7 +75,7 @@
                         }
                         fclose($archivoSeccion);
 
-                fwrite($archivo, json_encode($registro)."\n");
+                fwrite($archivo, json_encode($_POST)."\n");
                 fclose($archivo);
     
                 $respuesta = $registro;
@@ -94,21 +84,10 @@
             }else{
                 $respuesta["num"] = 0;
                 echo json_encode($respuesta);
-               
-            
+            } 
+          
         }
 
 	}
-
-
-
-
-
-
-
-
-
-
-
 
 ?>
