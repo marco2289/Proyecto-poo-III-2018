@@ -113,7 +113,7 @@ $("#btn-matricular").click(function(){
 					"facultad="+$("#slc-facultades").val();
 			
 			console.log(parametros);		
-			$("#btn-matricular").append("enable",true);
+			$("#btn-matricular").attr("enable",true);
 			
 			$.ajax({
 				url:"ajax/matricula.php?accion=1",  //accion 1 para matricular clases
@@ -123,7 +123,7 @@ $("#btn-matricular").click(function(){
 				success:function(respuesta){
 					console.log(respuesta);
 					//('#modal-matricular').modal('hide');		
-						$("#clases-matriculadas").append(
+						$("#clases-matriculadas").html(
 							`<tr>
 								<td>${respuesta.codCarrera}${respuesta.codClase}</td>
 								<td>${respuesta.seccion}</td>
