@@ -130,13 +130,26 @@
 
            
                 
-          <div id="loggin" > 
+          <div id="loggin3" > 
        <img class="mb-4 rounded-circle" src="" alt="">
-        <h1>Login Pregrado</h1> <hr>
-        <label for"cuenta"> Numero de cuenta </label>
+        <h1>Registro Alumnos</h1> <hr>
+        <label for"cuenta"> Nombres  </label>
+        <input class="" type="text" id="cuenta" placeholder="Cuenta" required autofocus>
+        <label> Apellidos</label>
+        <input type="text" id="password" placeholder="password" required autofocus > 
+        <label for"cuenta">No. Identidad</label>
+        <input class="" type="text" id="cuenta" placeholder="Cuenta" required autofocus>
+       
+        <label for"cuenta">Telefono</label>
         <input  type="text" id="cuenta" placeholder="Cuenta" required autofocus>
-        <label> Password</label>
-        <input type="password" id="password" placeholder="password" required autofocus > 
+        <label> Direccion</label>
+        <input type="text" id="password" placeholder="password" required autofocus > 
+        <label for"cuenta">Correo</label>
+        <input class="" type="text" id="cuenta" placeholder="Cuenta" required autofocus>
+        <label for"cuenta"> Cuenta</label>
+        <input class="" type="text" id="cuenta" placeholder="Cuenta" required autofocus>
+        <label for"cuenta">Password</label>
+        <input class="" type="text" id="cuenta" placeholder="Cuenta" required autofocus>
         <input type="button" class ="btn boton boton-rojo btn-primary" id="btn-login" value="Entrar">
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script>
