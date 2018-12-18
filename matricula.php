@@ -134,7 +134,7 @@
                     </div>
                     <div class="tab-content " id="myTabContent">
             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"> 
-              <a style = "color: black; text-align:center;"  > Asignaturas Matriculadas <hr> </a>
+              <a id="parrafo" style = "color: black; text-align:center;"  > Asignaturas Matriculadas <hr> </a>
                 <table class="table table-bordered table-sm table-hover ">
                <thead>
                                     <tr>
@@ -149,27 +149,6 @@
                                     </tr>
                                   </thead>
                                   <tbody>
-                                    <tr>
-                                      <th scope="row">1</th>
-                                      <td>MM110</td>
-                                      <td>Matematica 1</td>
-                                      <td>0700</td>
-                                      <td>0800</td>
-                                      <td>LuMaMiJuVi</td>
-                                      <td>5</td>
-                                      <td>I</td>
-                                    </tr>
-                                    <tr>
-                                      <th scope="row">1</th>
-                                      <td>MM110</td>
-                                      <td>Matematica 1</td>
-                                      <td>0700</td>
-                                      <td>0800</td>
-                                      <td>LuMaMiJuVi</td>
-                                      <td>5</td>
-                                      <td>I</td>
-                                    </tr>
-                                    
                                   </tbody>
                    
                     
@@ -200,7 +179,7 @@
           </div>
 
           <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"> 
-              <a   style = "color: black;"> <br> Asignaturas Matriculadas   </a>
+              <a  id="parrafo" style = "color: black;"> Asignaturas en lista de espera <hr>  </a>
                 <table class="table table-bordered table-sm table-hover ">
                <thead>
                                     <tr>
@@ -215,37 +194,43 @@
                                     </tr>
                                   </thead>
                                   <tbody>
-                                    <tr>
-                                      <th scope="row">1</th>
-                                      <td>MM110</td>
-                                      <td>Matematica 1</td>
-                                      <td>0700</td>
-                                      <td>0800</td>
-                                      <td>LuMaMiJuVi</td>
-                                      <td>5</td>
-                                      <td>I</td>
-                                    </tr>
-                                    <tr>
-                                      <th scope="row">1</th>
-                                      <td>MM110</td>
-                                      <td>Matematica 1</td>
-                                      <td>0700</td>
-                                      <td>0800</td>
-                                      <td>LuMaMiJuVi</td>
-                                      <td>5</td>
-                                      <td>I</td>
-                                    </tr>
+                                    
                                     
                                   </tbody>
                    
                     
                   </table>
-                 
-
+                          </div>     
+                          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"> 
+              <a  id="parrafo" style = "color: black;"> Laboratorios Matriculados <hr>  </a>
+                <table class="table table-bordered table-sm table-hover ">
+               <thead>
+                                    <tr>
+                                      <th scope="col">Codigo</th>
+                                      <th scope="col">Asignatura</th>
+                                      <th scope="col">Seccion</th>
+                                      <th scope="col">HI</th>
+                                      <th scope="col">HF</th>
+                                      <th scope="col">Dias</th>
+                                      <th scope="col">UV</th>
+                                      <th scope="col">Periodo</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    
+                                    
+                                  </tbody>
+                   
+                    
+                  </table>
+                          </div>
             
 
                     
 <div class="modal fade" id="myModal" role="dialog">
+
+
+
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             
               <!-- Modal content-->
@@ -259,40 +244,40 @@
                          <div class="col-12" style="margin-bottom:2%">
   
                             <div>
-                                    <select multiple class="form-control col-12 col-sm-12 col-md-4 col-lg-4 " id="select-carreras" style="float:left" size="12">
-                                            <option value="">Antropología</option>
-                                            <option value="">Arqueoastronomía y Astronomía cultural</option>
-                                            <option value="">Arte</option>
-                                            <option value="">Astronomía y Astrofísica</option>
-                                            <option value="">Biología</option>
-                                            <option value="">Ciencia y Tecnologías de la Información</option>
-                                            <option value="">Ciencias Políticas y Derechos Humanos</option>
-                                            <option value="">Cultura Física y Deportes</option>
-                                            <option value="">Ecología y Recursos Naturales</option>
-                                            <option value="">Estadística Matemática</option>
-                                            <option value="">Filosofía</option>
-                                            <option value="">Física de la Tierra</option>
-                                            <option value="">Historia</option>
-                                            <option value="">Infraestructura</option>
-                                            <option value="">Ingeniería de Sistemas</option>
-                                            <option value="">Lenguas Extrangeras</option>
-                                            <option value="">Letras</option>
-                                            <option value="">Matemática Aplicada</option>
-                                            <option value="">Matemática Pura</option>
-                                            <option value="">Materia Condensada</option>
-                                            <option value="">Química</option>
-                                            <option value="">Sociología</option>
+                            <select  class="form-control col-12 col-sm-12 col-md-4 col-lg-4 " id="select-carreras" style="float:left" size="12">
+                            <option><?php
+                                                $archivo = fopen("data/estudiantes.json","r");
+                                                while(($linea = fgets($archivo))){
+                                                    $registro = json_decode($linea,true);
+                                                    if ($llave == $registro["No_Cuenta"]){
+                                                        echo    '
+                                                                 <p><b></b>'.$registro['carrera'].'</p><hr style="border: 1.2px solid #FFCC00;">
+                                                                ';  
+                                                        break;
+                                                    } 
+                                                }
+                                                fclose($archivo);
+                                                $carrera=$registro['carrera'];
+                                                ?>
+                                            </option>
+                                        </select>   
 
-
-
-                                    </select>
 
                                     <select multiple class="form-control col-12 col-sm-12 col-md-4 col-lg-4 " id="select-clases" style="float:left" size="12">
-                                            <option>1</option>
-                                            <option>2</option>
-                                            <option>3</option>
-                                            <option>4</option>
-                                            <option>5</option>
+                                    <option>Asignatura</option>
+                                            <?php
+                                                $archivo = fopen("json/$carrera.json","r");
+                                                while(($linea = fgets($archivo))){
+                                                    $registro = json_decode($linea,true);
+                                                    //if ($valor == $registro["No_Cuenta"]){
+                                                        echo    '
+                                                                 <option>'.$registro['codigo'] . " " . $registro['asignatura'].'</option>
+                                                                ';  
+                                                        //break;
+                                                    //} 
+                                                }
+                                                fclose($archivo);
+                                            ?>
                                     </select>
 
                                     <select multiple class="form-control col-12 col-sm-12 col-md-4 col-lg-4 " id="select-secciones" size="12">
