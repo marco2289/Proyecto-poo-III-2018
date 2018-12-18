@@ -71,7 +71,7 @@
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php echo $_SESSION["nombre"];  ?> </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="loggin-estudiantes.html">Estudiantes</a>
-            <a class="dropdown-item" href="#">Cerrar Secion</a>
+            <a class="dropdown-item" href="cerrar-sesion.php">Cerrar Secion</a>
   
             
           </div>
