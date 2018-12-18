@@ -11,18 +11,8 @@ class Alumno{
     private $carrera;
     private $centro;
 
-	public function __construct(
-		$nombre = null,
-        $apellido = null,
-        $cuenta = null,
-        $id = null,
-        $pass = null,
-        $mail = null,
-        $facu = null,
-        $carrera = null,
-        $centro = null
-		
-	){
+	public function __construct($nombre = null,$apellido = null,$cuenta = null, $id = null,$pass = null,$mail = null,
+        $facu = null,$carrera = null,$centro = null){
 
 		$this->nombre = $nombre;
         $this->apellido = $apellido;

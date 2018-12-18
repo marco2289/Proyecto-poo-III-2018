@@ -1,7 +1,7 @@
 body {
-    background-image: url(../img/fondo4.jpg)  ;
+    background-image: url(../img/fondo6.jpg)  ;
     background-repeat: no-repeat;background-size:cover;
-    background-color: rgb(0, 0, 0);
+    
 
 }
 
@@ -10,6 +10,10 @@ body {
 }
 #tabla-enc{
      width: 800px;
+}
+
+#titulo2{
+    color: black;
 }
 
 .his{
@@ -21,7 +25,7 @@ body {
 
     background-color: rgba(255, 255, 255, 0.3);
     width: 950px;
-    height: 1450px;
+    height: 1250px;
     color: #fff;
     padding: 50px 50px 50px 50px;
     border-radius: 10px;
@@ -69,7 +73,7 @@ body {
     
     background-color: rgba(255, 255, 255, 0.3);
     width: 850px;
-    height: 1150px;
+    height: 950px;
     color: #fff;
     padding: 50px 50px 50px 50px;
     border-radius: 10px;
@@ -109,9 +113,10 @@ body {
 
 
 
+
 input[type="text"], input[type="password"]{
     background-color: #333333;
-    width: 100%;
+    width: 60%;
     font-size: 20px;
     border: 0;
     border-radius: 5px;
@@ -120,6 +125,8 @@ input[type="text"], input[type="password"]{
     color: #ffffff;
     margin-top: 5px;
     margin-bottom: 5px;
+    margin-left: 130px;
+    float: left;
 }
 
 .boton{

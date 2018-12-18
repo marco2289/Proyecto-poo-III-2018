@@ -75,7 +75,7 @@
         <script>
         $("#btn-login").click(function(){
             $.ajax({
-                url:"ajax/estudiante.php",
+                url:"ajax/sesion-estudiante.php",
                 data:"No_Cuenta="+$("#cuenta").val() + "&password="+$("#password").val(),
                 dataType:"json",
                 method:"POST",

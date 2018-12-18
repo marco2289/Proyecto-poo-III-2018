@@ -132,28 +132,106 @@
                 
           <div id="loggin3" > 
        <img class="mb-4 rounded-circle" src="" alt="">
-        <h1>Registro Alumnos</h1> <hr>
-        <label for"cuenta"> Nombres  </label>
-        <input class="" type="text" id="cuenta" placeholder="Cuenta" required autofocus>
-        <label> Apellidos</label>
-        <input type="text" id="password" placeholder="password" required autofocus > 
-        <label for"cuenta">No. Identidad</label>
-        <input class="" type="text" id="cuenta" placeholder="Cuenta" required autofocus>
+        <h1 id="titulo2">Registro Alumnos</h1> <hr><br>
+        <label id ="li" for"cuenta"></label><br>
+        <input class="" type="text" id="nombre" placeholder="Nombres" required autofocus>
+        <label></label><br>
+        <input type="text" id="apellido" placeholder="Apellidos" required autofocus > 
+        <label for"cuenta"></label><br>
+        <input class="" type="text" id="identidad" placeholder="No. ID" required autofocus>
+      
        
-        <label for"cuenta">Telefono</label>
-        <input  type="text" id="cuenta" placeholder="Cuenta" required autofocus>
-        <label> Direccion</label>
-        <input type="text" id="password" placeholder="password" required autofocus > 
-        <label for"cuenta">Correo</label>
+        <label for"cuenta"></label><br>
+        <input  type="text" id="telefono" placeholder="Telefono" required autofocus>
+        <label></label>
+        <input type="text" id="direccion" placeholder="Direccion" required autofocus > 
+        <label for"cuenta"></label>
+        <input class="" type="text" id="correo" placeholder="Correo" required autofocus>
+        <label for"cuenta"></label>
         <input class="" type="text" id="cuenta" placeholder="Cuenta" required autofocus>
-        <label for"cuenta"> Cuenta</label>
-        <input class="" type="text" id="cuenta" placeholder="Cuenta" required autofocus>
-        <label for"cuenta">Password</label>
-        <input class="" type="text" id="cuenta" placeholder="Cuenta" required autofocus>
-        <input type="button" class ="btn boton boton-rojo btn-primary" id="btn-login" value="Entrar">
+        <label for"cuenta"></label>
+       
+
+        <input class="" type="text" id="password" placeholder="Password" required autofocus>
+        <select class="form-control form-control-lg" name="jearquia" id="jerarquia" >
+        <option  value="">Categoria</option>
+        <option  value="Estudiante">Estudiante</option>
+        <option  value="Maestro">Maestro</option>
+        <option  value="Otro">Otro</option>
+				
+        </select>
+        <select class="form-control form-control-lg" name="centro" id="centro" >
+							<option  value="">Seleccione un centro de estudios</option>
+							<option value="CURC">Centro Universitario Regional Del Centro (CURC)</option>
+							<option value="CU">Ciudad Universitaria (CU)</option>
+							<option value="UNAH-VS">Valle de Sula (UNAH-VS)</option>
+							<option value="UNAH-TEC-AGUÁN">Centro Tecnológico del Valle de Aguan (UNAH-TEC-AGUÁN)</option>
+							<option value="UNAH-TEC-Danli">Centro Tecnológico de Danlí (UNAH-TEC-Danli)</option>
+							<option value="UNAH-CURLA">Centro Universitario Regional de Litoral Atlántico (UNAH-CURLA)</option>
+							<option value="UNAH-CURLP">entro Univesitario Regional del Litoral Pacífico (UNAH-CURLP)</option>
+							<option value="UNAH-CUROC">Centro Universitario Regional de Occidente (UNAH-CUROC)</option>
+							<option value="UNAH-CURNO">Centro Universitario Regional Nororiental (UNAH-CURNO)</option>
+            </select>
+            <select class="form-control form-control-lg" name="carrera" id="carrera" ">
+								<option value="">Seleccione una Carrera</option>
+								<option value="Ingenieria Civil">Ingenieria Civil</option>
+								<option value="Ingenieria En Sistemas">Ingenieria En Sistemas</option>
+								<option value="Ingenieria Electrica">Ingenieria Electrica</option>
+								<option value="Ingenieria Industrial">Ingenieria Industrial</option>
+								<option value="Ingenieria Mecanica">Ingenieria Mecanica</option>
+								<option value="Ingenieria Quimica">Ingenieria Quimica</option>
+								<option value="Ingenieria Forestal">Ingenieria Forestal</option>
+								<option value="Ingenieria Agronomica">ingenieria Agronomica</option>
+								<option value="Licenciatura en Geografia">Licenciatura en Geografia</option>
+								<option value="Licenciatura en Arqueoastronomia">Licenciatura en Arqueoastronomia</option>
+								<option value="Licenciatura en Astronomia">Licenciatura en Astronomia</option>
+								<option value="Licenciatura en Antropologia">Licenciatura en Antropologia</option>
+								<option value="Licenciatura en Historia">Licenciatura en Historia</option>
+								<option value="Licenciatura en Desarrollo-Local">Licenciatura en Desarrollo Local</option>
+								<option value="Licenciatura en Periodismo">Licenciatura en Periodismo</option>
+								<option value="Licenciatura en Trabajo Social">Licenciatura en Trabajo Social</option>
+								<option value="Tecnico Desarrollo Municipal">Tecnico Desarrollo Municipal</option>
+								<option value="Licenciatura En Matematicas">Licenciatura En Matematicas</option>
+								<option value="Licenciatura En Fisica">Licenciatura En Fisica</option>
+								<option value="Licenciatura en Microbiologia">Licenciatura en Microbiologia</option>
+								<option value="Licenciatura En Biologia">Licenciatura En Biologia</option>
+								<option value="Licenciatura En Derecho">Licenciatura En Derecho</option>
+								<option value="Licenciatura en Enfermería">Licenciatura en Enfermería</option>
+								<option value="Licenciatura En Medicina General">Licenciatura En Medicina General</option>
+								<option value="Licenciatura En Nutricion">Licenciatura En Nutricion</option>
+								<option value="Licenciatura Informatica Administrativa">Licenciatura Informatica Administrativa</option>
+								<option value="Licenciatura Administracion De Empresas">Licenciatura Administracion De Empresas</option>
+								<option value="Licenciatura En Economia">Licenciatura En Economia</option>
+								<option value="Licenciatura En Banca Y Finanzas">Licenciatura En Banca Y Finanzas</option>
+								<option value="Licenciatura En Mercadotecnia">Licenciatura En Mercadotecnia</option>
+								<option value="Licenciatura En Comercio Internacional">Licenciatura En Comercio Internacional</option>
+								<option value="Lic En Contaduria Publica">Lic En Contaduria Publica</option>
+								<option value="Licenciatura En Administracion Aduanera">Licenciatura En Administracion Aduanera</option>
+								<option value="Licenciatura En Arquitectura">Licenciatura En Arquitectura</option>
+								<option value="Licenciatura En Pedagogia">Licenciatura En Pedagogia</option>
+								<option value="Licenciatura En Letras">Licenciatura En Letras</option>
+								<option value="Licenciatura En Filosofia">Licenciatura En Filosofia</option>
+								<option value="Licenciatura En Lenguas Extranjeras">Licenciatura En Lenguas Extranjeras</option>
+								<option value="Licenciatura En Musica">Licenciatura En Musica</option>
+								<option value="Licenciatura En Odontologia">Licenciatura En Odontologia</option>
+								<option value="Licenciatura En Quimica Y Farmancia">Licenciatura En Quimica Y Farmancia</option>
+							</select>
+        
+        <input type="button" class ="btn btn-primary boton" id="btn-registrar" value="Entrar">
         <script type="text/javascript" src="js/jquery.min.js"></script>
+        
         <script>
-        $("#btn-login").click(function(){
+             <label><input type="checkbox"> Recordarme</label>
+        <a href="#">ayuda?</a>
+        <p> Para ayuda llamar al 2221-4947</p><br>
+        <p>Derechos reservados UNAH</p>
+
+
+
+    </div>
+            
+    </div>
+        $("#btn-registrar").click(function(){
             $.ajax({
                 url:"ajax/estudiante.php",
                 data:"No_Cuenta="+$("#cuenta").val() + "&password="+$("#password").val(),
@@ -178,16 +256,67 @@
         });
     </script>
    
-        <label><input type="checkbox"> Recordarme</label>
-        <a href="#">ayuda?</a>
-        <p> Para ayuda llamar al 2221-4947</p><br>
-        <p>Derechos reservados UNAH</p>
+     
+    <script>
+		$("#btn-registrar").click(function(){
+			var parametros =  `nombre=${$("#nombre").val()}&apellido=${$("#apellido").val()}&direccion=${$("#direccion").val()}&ID=${$("#id").val()}&telefono=${$("#telefono").val()}&email=${$("#correo").val()}&password=${$("#password").val()}&centro=${$("#centro").val()}&No_Cuenta=${$("#cuenta").val()}&jerarquia=${$("#jerarquia").val()}&carrera=${$("#carrera").val()}`;
+			console.log("El cliente envia estos parametros: "+parametros);
+			$.ajax({
+				url:"ajax/proceso-ingreso.php",
+				method:"GET",
+				data:parametros,
+				dataType:"json",
+				success:function(respuesta){
+					console.log("El servidor dice: "+respuesta.nombre);
+				},
+				error:function(error){
+					console.error(error);
+					$("#error").append(error.responseText);
+				}
+			});
+			$.ajax({
+				url:"ajax/proceso-ingreso-alumnos.php",
+				method:"GET",
+				data:parametros,
+				dataType:"json",
+				success:function(respuesta){
+					console.log("El servidor dice: "+respuesta.nombre);
+				},
+				error:function(error){
+					console.error(error);
+					$("#error").append(error.responseText);
+				}
+			});
+			var errores;
+			if( $('#nombre').val() != null ){
+				
+				$('#nombre').css('border-bottom-color', '#F14B4B')
+			}
+			if( errores == '' == false){
+            var mensajeModal = '<div class="modal_wrap">'+
+                                    '<div class="mensaje_modal">'+
+										'<h2 style="text-align:center;">Credenciales De Ingreso al Sistema</h2>'+
+										'<p><b>Numero de Usuario:</b></p>'+$('#No_Cuenta').val()+
+										'<p><b>Contraseña:</b></p>'+$('#password').val()+
+										'<h2>Bienvenido A La Universidad Nacional Autonoma de Honduras</h2>'+
+                                        '<span id="btnClose">Finalizar</span>'+
+                                    '</div>'+
+                                '</div>'
+
+            $('body').append(mensajeModal);
+        	}
+			// CERRANDO MODAL ==============================
+			$('#btnClose').click(function(){
+				window.location.href = "formulario-registro-alumno.php";
+			});	
+		});
+		
+	</script>
 
 
 
-    </div>
-            
-    </div>
+
+
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/controlador.js"></script>
