@@ -87,7 +87,7 @@
         <div id="loggin2">
             <table class="table table-borderless table-sm" id="tabla-enc">
             <?php
-                            $archivo = fopen("data/estudiantes.json","r");
+                            $archivo = fopen("data/administrador.json","r");
                             while(($linea = fgets($archivo))){
                                 $registro = json_decode($linea,true);
                                 if ($llave == $registro["No_Cuenta"]){
@@ -100,7 +100,7 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <th scope="row">Carrera:</th>
+                                            <th scope="row">Puesto:</th>
                                             <td>'.$registro['carrera'].'</td>
                                             <th scope="row" >Centro:</th>
                                             <td>'.$registro['centro'].'</td>
@@ -108,7 +108,7 @@
                                       <tr>
                                         <th scope="row">Nombre:</th>
                                       <td>'.$registro['nombre'].' '.$registro['apellido'].'</td>
-                                        <th scope="row" >Estudiante categoria:</th>
+                                        <th scope="row" >Categoria:</th>
                                         <td>'.$registro['categoria'].'</td>
                                       </tr>
                                       <tr>
