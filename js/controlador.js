@@ -1,60 +1,25 @@
-/*Patrón MVC Modelo Vista Controlador*/
-var usuarios = []; //Arreglo vacio
+$("#select-clases").change(function(){
+	//Esta funcion se ejecuta cada vez que el usuario selecciona o cambia un elemento de la lista.
+	console.log("Usuario seleccionado: " + $("#select-secciones").val());
+	$.ajax({
+		url:"ajax/secciones.php?opcion=2&codigo="+$("#select-secciones").val(),
+		method:"GET",
+		dataType:"json",
+		success:function(respuesta){
+            console.log(respuesta);
+            
+            if ($("select-clases").val==$("select-secciones").val{
+			$("#seccion").html("src", respuesta.clase);
+			//$("#nombre").html(respuesta.nombre+" "+respuesta.apellido);
+			//$("#usuario").html(respuesta.usuario);
+			//$("#cantidad-tweets").html(respuesta.tweets);
+			//$("#following").html(respuesta.following);
+            //$("#followers").html(respuesta.followers);
+        }
 
-var paises =[
-    {nombrePais:"Honduras",abreviatura:"HN"},
-    {nombrePais:"Panama",abreviatura:"PA"},
-    {nombrePais:"Nicaragua",abreviatura:"NI"},
-    {nombrePais:"Mexico",abreviatura:"MX"},
-    {nombrePais:"El Salvador",abreviatura:"ES"}
-];
-
-
-//Funcion con autoejecucion (Funcion anonima)
-(function(){
-    for (var i = 0; i < paises.length; i++) {
-        document.getElementById("pais").innerHTML += 
-            `<option value="${paises[i].nombrePais}">${paises[i].nombrePais}</option>`;
-    }    
-})();
-
-
-function registrar(){
-    if(
-        !validarCampoVacio(document.getElementById("firstname")) &&
-        !validarCampoVacio(document.getElementById("lastname")) 
-    ){
-        return;
-    }
-    
-
-    var usuario = {
-        nombre:document.getElementById("firstname").value,
-        apellido:document.getElementById("lastname").value,
-        password:document.getElementById("password").value,
-        correo:document.getElementById("email").value,
-        fechaNacimiento:document.getElementById("birthday").value
-    };
-    usuarios.push(usuario); //Agregando un nuevo objeto usuario
-    console.log(usuarios);
-
-    document.getElementById("tabla").innerHTML+=
-                `<tr>
-                    <td>${usuario.nombre}</td>  
-                    <td>${usuario.apellido}</td>  
-                    <td>${usuario.fechaNacimiento}</td>  
-                    <th>${usuario.correo}</th>  
-                </tr>`;
-}
-
-function validarCampoVacio(campo){
-    if (campo.value==""){
-        campo.classList.add("campo-invalido");
-        return false;
-    }else{
-        return true;
-    }
-}
-/*function llenarDiv(){
-    document.getElementById("contenido").innerHTML = "Hola mundo";
-}*/
+		},
+		error:function(error){
+			console.log(error);
+		}
+	});
+});

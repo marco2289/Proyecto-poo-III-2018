@@ -281,11 +281,8 @@
                                     </select>
 
                                     <select multiple class="form-control col-12 col-sm-12 col-md-4 col-lg-4 " id="select-secciones" size="12">
-                                            <option>1</option>
-                                            <option>2</option>
-                                            <option>3</option>
-                                            <option>4</option>
-                                            <option>5</option>
+                                    <option id="seccion"></option>
+                                            
                                     </select>
                             </div>
                             
