@@ -132,7 +132,7 @@
                       Mi espacio personal
                     </h3>
                     <a href="historial - copia.php" class="list-group-item list-group-item-action" id="titulo2">Historial academico</a>
-                    <a href="#" class="list-group-item list-group-item-action" id="titulo2" >Matricula</a>
+                    <a href="matricula.php" class="list-group-item list-group-item-action" id="titulo2" >Matricula</a>
                     <a href="#" class="list-group-item list-group-item-action" id="titulo2" >Matricula de laboratorio</a>
                     <a href="#" class="list-group-item list-group-item-action " id="titulo2" >Cambio de clave</a>
                     <a href="#" class="list-group-item list-group-item-action " id="titulo2" >Ver calificaciones del periodo</a>

@@ -16,7 +16,7 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
-    <link href="css/area-personal.css" rel="stylesheet">
+    <link href="css/matricula.css" rel="stylesheet">
     <script src="main.js"></script>
 </head>
 
@@ -127,17 +127,200 @@
               </table>
           
           </div>
-            <div class="list-group">
-                    <h3 href="#" class="list-group-item list-group-item-action active" id="titulo">
-                      Mi espacio personal
-                    </h3>
-                    <a href="historial - copia.php" class="list-group-item list-group-item-action" id="titulo2">Historial academico</a>
-                    <a href="#" class="list-group-item list-group-item-action" id="titulo2" >Matricula</a>
-                    <a href="#" class="list-group-item list-group-item-action" id="titulo2" >Matricula de laboratorio</a>
-                    <a href="#" class="list-group-item list-group-item-action " id="titulo2" >Cambio de clave</a>
-                    <a href="#" class="list-group-item list-group-item-action " id="titulo2" >Ver calificaciones del periodo</a>
-                  </div>
+      
+
+                    <div>
+                        <button style="margin-left:7%"  class="btn btn-success" type="button" data-toggle="modal" data-target="#myModal">Seleccionar Asignatura</button>
+                    </div>
+                    <div class="tab-content " id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"> 
+              <a style = "color: black; text-align:center;"  > Asignaturas Matriculadas <hr> </a>
+                <table class="table table-bordered table-sm table-hover ">
+               <thead>
+                                    <tr>
+                                      <th scope="col">Codigo</th>
+                                      <th scope="col">Asignatura</th>
+                                      <th scope="col">Seccion</th>
+                                      <th scope="col">HI</th>
+                                      <th scope="col">HF</th>
+                                      <th scope="col">Dias</th>
+                                      <th scope="col">UV</th>
+                                      <th scope="col">Periodo</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <th scope="row">1</th>
+                                      <td>MM110</td>
+                                      <td>Matematica 1</td>
+                                      <td>0700</td>
+                                      <td>0800</td>
+                                      <td>LuMaMiJuVi</td>
+                                      <td>5</td>
+                                      <td>I</td>
+                                    </tr>
+                                    <tr>
+                                      <th scope="row">1</th>
+                                      <td>MM110</td>
+                                      <td>Matematica 1</td>
+                                      <td>0700</td>
+                                      <td>0800</td>
+                                      <td>LuMaMiJuVi</td>
+                                      <td>5</td>
+                                      <td>I</td>
+                                    </tr>
+                                    
+                                  </tbody>
+                   
+                    
+                  </table>
+                  <nav aria-label="Page navigation example">
+                      <ul class="pagination">
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+          </div>
+
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"> 
+              <a   style = "color: black;"> <br> Asignaturas Matriculadas   </a>
+                <table class="table table-bordered table-sm table-hover ">
+               <thead>
+                                    <tr>
+                                      <th scope="col">Codigo</th>
+                                      <th scope="col">Asignatura</th>
+                                      <th scope="col">Seccion</th>
+                                      <th scope="col">HI</th>
+                                      <th scope="col">HF</th>
+                                      <th scope="col">Dias</th>
+                                      <th scope="col">UV</th>
+                                      <th scope="col">Periodo</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <th scope="row">1</th>
+                                      <td>MM110</td>
+                                      <td>Matematica 1</td>
+                                      <td>0700</td>
+                                      <td>0800</td>
+                                      <td>LuMaMiJuVi</td>
+                                      <td>5</td>
+                                      <td>I</td>
+                                    </tr>
+                                    <tr>
+                                      <th scope="row">1</th>
+                                      <td>MM110</td>
+                                      <td>Matematica 1</td>
+                                      <td>0700</td>
+                                      <td>0800</td>
+                                      <td>LuMaMiJuVi</td>
+                                      <td>5</td>
+                                      <td>I</td>
+                                    </tr>
+                                    
+                                  </tbody>
+                   
+                    
+                  </table>
+                 
+
+            
+
+                    
+<div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            
+              <!-- Modal content-->
+            <div class="modal-content" style="background-color:#183F60">
+                <div class="modal-header centrar" >
+                  <h6 class="modal-title" style="color:white"><b>Asignaturas</b></h6>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body" style="background-color:rgb(255, 255, 255);" class="col-12 col-sm-12 col-md-6 col-lg-6 form-control">                
+                     <div class="row centrar">               
+                         <div class="col-12" style="margin-bottom:2%">
+  
+                            <div>
+                                    <select multiple class="form-control col-12 col-sm-12 col-md-4 col-lg-4 " id="select-carreras" style="float:left" size="12">
+                                            <option value="">Antropología</option>
+                                            <option value="">Arqueoastronomía y Astronomía cultural</option>
+                                            <option value="">Arte</option>
+                                            <option value="">Astronomía y Astrofísica</option>
+                                            <option value="">Biología</option>
+                                            <option value="">Ciencia y Tecnologías de la Información</option>
+                                            <option value="">Ciencias Políticas y Derechos Humanos</option>
+                                            <option value="">Cultura Física y Deportes</option>
+                                            <option value="">Ecología y Recursos Naturales</option>
+                                            <option value="">Estadística Matemática</option>
+                                            <option value="">Filosofía</option>
+                                            <option value="">Física de la Tierra</option>
+                                            <option value="">Historia</option>
+                                            <option value="">Infraestructura</option>
+                                            <option value="">Ingeniería de Sistemas</option>
+                                            <option value="">Lenguas Extrangeras</option>
+                                            <option value="">Letras</option>
+                                            <option value="">Matemática Aplicada</option>
+                                            <option value="">Matemática Pura</option>
+                                            <option value="">Materia Condensada</option>
+                                            <option value="">Química</option>
+                                            <option value="">Sociología</option>
+
+
+
+                                    </select>
+
+                                    <select multiple class="form-control col-12 col-sm-12 col-md-4 col-lg-4 " id="select-clases" style="float:left" size="12">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                    </select>
+
+                                    <select multiple class="form-control col-12 col-sm-12 col-md-4 col-lg-4 " id="select-secciones" size="12">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                    </select>
+                            </div>
+                            
+
+
+
+
+                         </div>  
+                         <br>                                                    
+                     </div>
+                </div>  
+                
+                <div class="modal-footer">
+                    <button class="btn btn-success centrar"  type="button" value="Buscar">Matricular</button>
+                </div>                              
+            </div>
+        </div>
+          
     </div>
+<!--********************************FIN VENTANA MODAL*****************************************-->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/controlador.js"></script>
