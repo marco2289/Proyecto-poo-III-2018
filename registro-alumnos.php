@@ -17,6 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
     <link href="css/registro.estudiante.css" rel="stylesheet">
+    <link  rel="icon" href="img/logo.ico" >
     <script src="main.js"></script>
 </head>
 
@@ -57,7 +58,7 @@
               Administrador
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">DIPP</a>
+              <a class="dropdown-item" href="loggin-administrador.html">DIPP</a>
               <a class="dropdown-item" href="#">Decanos</a>
           
             </div>
@@ -87,7 +88,7 @@
         <div id="loggin2">
             <table class="table table-borderless table-sm" id="tabla-enc">
             <?php
-                            $archivo = fopen("data/estudiantes.json","r");
+                            $archivo = fopen("data/administrador.json","r");
                             while(($linea = fgets($archivo))){
                                 $registro = json_decode($linea,true);
                                 if ($llave == $registro["No_Cuenta"]){
@@ -100,7 +101,7 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <th scope="row">Carrera:</th>
+                                            <th scope="row">Puesto:</th>
                                             <td>'.$registro['carrera'].'</td>
                                             <th scope="row" >Centro:</th>
                                             <td>'.$registro['centro'].'</td>
@@ -108,7 +109,7 @@
                                       <tr>
                                         <th scope="row">Nombre:</th>
                                       <td>'.$registro['nombre'].' '.$registro['apellido'].'</td>
-                                        <th scope="row" >Estudiante categoria:</th>
+                                        <th scope="row" >Categoria:</th>
                                         <td>'.$registro['categoria'].'</td>
                                       </tr>
                                       <tr>

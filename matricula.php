@@ -17,6 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
     <link href="css/matricula.css" rel="stylesheet">
+    <link  rel="icon" href="img/logo.ico" >
     <script src="main.js"></script>
 </head>
 
