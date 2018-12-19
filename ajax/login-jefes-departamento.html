@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login Jefes Departamento</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
+    <link href="css/estilos.css" rel="stylesheet">	
+	<link rel="shortcut icon" href="images/icono.jpg" />
+	<script src="js/jquery.min.js"></script>
+	<script src="js/skel.min.js"></script>
+	<script src="js/skel-layers.min.js"></script>
+	<script src="js/init.js"></script>
+	<script src="main.js"></script>
+</head>
+<body >
+    <style>
+  		.dropdown:hover>.dropdown-menu{
+  		  display: block;
+  		} 
+
+	</style>
+			<header id="header" class="master">
+				<h1><a href="index.html"><img src="images/logounah.png" width="250px" height="100px"></a></h1>
+				<nav id="nav" class="navbar">
+					<ul>
+						<li><a style="color:rgb(247, 240, 232); font-weight:bold" href="index.html">Página Principal</a></li>
+						<li><a style="color:rgb(247, 240, 232); font-weight:bold" href="#">Primer Ingreso</a></li>
+						<li class="nav-item dropdown">
+        					<a style="color:rgb(247, 240, 232); font-weight:bold" href="#" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        					  Sistema Postgrado
+        					</a>
+        					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        					  <a style="color:black; font-weight:bold" class="dropdown-item" href="login-estudiantes.html">Estudiantes</a>
+        					  <a style="color:black; font-weight:bold" class="dropdown-item" href="login-maestros.html">Profesores</a>
+        					  <a style="color:black; font-weight:bold" class="dropdown-item" href="login-jefes-departamento.html">Jefes de Departamento</a>
+        					</div>
+      					</li>
+						<li class="nav-item dropdown">
+        					<a style="color:rgb(247, 240, 232); font-weight:bold" href="#" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        					  Administración
+        					</a>
+        					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        					  <a style="color:black; font-weight:bold" class="dropdown-item" href="login-administrador.html">DIPP</a>
+        					  <a style="color:black; font-weight:bold" class="dropdown-item" href="#">Decanos</a>
+        					</div>
+      					</li>	
+					</ul>
+				</nav>
+			</header>
+ 
+   
+   
+   
+    <section class="login-block">
+    <div class="container">
+	<div class="row">
+		<div class="col-md-4 login-sec">
+		    <h2 class="text-center">Login Jefe de Departamento</h2>
+		    <form class="login-form">
+  <div class="form-group">
+    <label for="exampleInputEmail1" class="text-uppercase">Username</label>
+    <input type="text" class="form-control" placeholder="">
+    
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1" class="text-uppercase">Password</label>
+    <input type="password" class="form-control" placeholder="">
+  </div>
+  
+  
+    <div class="form-check">
+    <button type="submit" class="btn btn-login float-right btn-outline-info">Log in</button>
+  </div>
+  
+</form>
+<div class="copy-text"><i class="fa fa-heart"></i><a href=""></a></div>
+		</div>
+		<div class="col-md-8 banner-sec">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                 <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  </ol>
+            <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <img class="d-block img-fluid" src="images/fondo6.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block img-fluid" src="images/fondo5.jpg" alt="First slide">
+    </div>
+            </div>	   
+		    
+		</div>
+	</div>
+</div>
+</section>
+
+    
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="8u 12u$(small)">
+                    <ul class="copyright">
+                        <li>&copy; Untitled. All rights reserved.</li>
+                    </ul>
+                </div>
+                <div class="4u$ 12u$(small)">
+                    <ul class="icons">
+                        <li>
+                            <a class="icon rounded fa-facebook"><span class="label">Facebook </span></a>
+                        </li>
+                        <li>
+                            <a class="icon rounded fa-twitter"><span class="label">Twitter</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
