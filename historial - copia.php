@@ -14,6 +14,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Historial</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
@@ -60,13 +61,13 @@
               Administrador
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">DIPP</a>
+              <a class="dropdown-item" href="loggin-administrador.html">DIPP</a>
               <a class="dropdown-item" href="#">Decanos</a>
           
             </div>
           </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#"></a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php echo $_SESSION["nombre"];  ?> </a>
@@ -89,9 +90,12 @@
           <table class="table table-borderless table-sm" id="tabla-enc">
             <?php
                             $archivo = fopen("data/estudiantes.json","r");
+                            $interador =array();
                             while(($linea = fgets($archivo))){
+                             $interador[]=json_decode($linea);
                                 $registro = json_decode($linea,true);
                                 if ($llave == $registro["No_Cuenta"]){
+                                  for ($var i=0; i<$interador[]; i++ )
                                     echo    
                                     '<h4 id="historial"> Informacion General</h4> <hr>
                                     <thead>
@@ -109,8 +113,8 @@
                                       <tr>
                                         <th scope="row">Nombre:</th>
                                       <td>'.$registro['nombre'].' '.$registro['apellido'].'</td>
-                                        <th scope="row" >Estudiante categoria:</th>
-                                        <td>'.$registro['categoria'].'</td>
+                                        <th scope="row" >Categoria:</th>
+                                        <td>'.$registro['jerarquia'].' Pregrado</td>
                                       </tr>
                                       <tr>
                                         <th scope="row">Cuenta:</th>

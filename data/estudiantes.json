@@ -1,4 +1,4 @@
-{"nombre":"Marco Tulio","apellido":"Medina Matute","No_Cuenta":"UNAH-2018-1","password":"asd.456","jerarquia":"estudiante", "carrera":"Biologia", "centro": "UNAH-CU", "categoria": "Pregrado"}
+{"nombre":"Marco Tulio","apellido":"Medina Matute","No_Cuenta":"UNAH-2018-1","password":"asd.456","jerarquia":"estudiante", "carrera":"Sistemas", "centro": "UNAH-CU", "categoria": "Pregrado"}
 {"nombre":"Erick Antonio ","apellido":"Fuentes","No_Cuenta":"UNAH-2018-2","password":"asd.45","jerarquia":"estudiante","carrera":"Biologia", "centro": "UNAH-CU", "categoria": "Pregrado"}
 {"nombre":"Eros Daniel","apellido":"Buezo","No_Cuenta":"UNAH-2015-3","password":"asd.456","jerarquia":"estudiante","carrera":"Sistemas", "centro": "UNAH-CU", "categoria": "Pregrado"}
 {"nombre":"Reinaldo ","apellido":"Villatoro","No_Cuenta":"UNAH-2018-4","password":"asd.456","jerarquia":"estudiante", "carrera":"Derecho", "centro": "UNAH-VS", "categoria": "Pregrado"}
@@ -9,3 +9,6 @@
 {"nombre":"Lidia","apellido":"Martinez","No_Cuenta":"UNAH-78","password":"juju","jerarquia":"estudiante","centro":"UNAH-CURLP","carrera":"Licenciatura en Geografia", "categoria": "Pregrado"}
 {"nombre":"Lin","apellido":"MEdina","No_Cuenta":"89","password":"89","jerarquia":"estudiante","centro":"CURC","carrera":"Ingenieria Civil"}
 {"nombre":"Marco","apellido":"Medina","No_Cuenta":"20081012042","password":"lin","jerarquia":"estudiante","centro":"CU","carrera":"Ingenieria En Sistemas"}
+{"nombre":"Rene","apellido":"Alexander","No_Cuenta":"UNAH-RE","password":"89","jerarquia":"estudiante","centro":"UNAH-CU","carrera":"Licenciatura en Desarrollo-Local"}
+{"nombre":"Juan Orlano","apellido":"Hernandez","No_Cuenta":"UNAH-JOH","password":"123","jerarquia":"estudiante","centro":"UNAH-CU","carrera":"Ingenieria En Sistemas"}
+{"nombre":"","apellido":"","No_Cuenta":"","password":"","jerarquia":"","centro":"","carrera":"undefined"}

@@ -11,6 +11,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Area personal Adminstrador</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
@@ -58,16 +59,16 @@
               Administrador
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">DIPP</a>
+              <a class="dropdown-item" href="loggin-administrador.html">DIPP</a>
               <a class="dropdown-item" href="#">Decanos</a>
           
             </div>
           </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#"></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#"></a>
           </li> <hr>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php echo $_SESSION["nombre"];  ?> </a>
@@ -133,7 +134,7 @@
                       Mi espacio personal
                     </h3>
                     <a href="registro-alumnos.php" class="list-group-item list-group-item-action" id="titulo2">Registrar Alumno</a>
-                    <a href="matricula.php" class="list-group-item list-group-item-action" id="titulo2" >Registrar Maetros</a>
+                    <a href="registro-maestros.php" class="list-group-item list-group-item-action" id="titulo2" >Registrar Maestros</a>
                     <a href="#" class="list-group-item list-group-item-action" id="titulo2" >Crear Secciones</a>
                     <a href="#" class="list-group-item list-group-item-action " id="titulo2" >Crear facultades</a>
                 

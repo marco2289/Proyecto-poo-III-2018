@@ -11,7 +11,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Registro de Alumnos</title>
+<title> Registro de Maestros</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
@@ -65,10 +65,10 @@
             </div>
           </li>
         <li class="nav-item">
-            <a class="nav-link" href="#"></a>
+            <a class="nav-link" href="#">Features</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"></a>
+            <a class="nav-link" href="#">Pricing</a>
           </li> <hr>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php echo $_SESSION["nombre"];  ?> </a>
@@ -134,7 +134,7 @@
                 
           <div id="loggin3" > 
        <img class="mb-4 rounded-circle" src="" alt="">
-        <h1 id="titulo2">Registro Alumnos</h1> <hr><br>
+        <h1 id="titulo2">Registro Maestros</h1> <hr><br>
         <label id ="li" for"cuenta"></label><br>
         <input class="" type="text" id="nombre" placeholder="Nombres" required autofocus>
         <label></label><br>
@@ -157,9 +157,9 @@
         <input class="" type="text" id="password" placeholder="Password" required autofocus>
         <select class="form-control form-control-lg" name="jerarquia" id="jerarquia" >
         <option  value="">Categoria</option>
-        <option  value="estudiante">estudiante</option>
-        <option  value="Maestro">Maestro</option>
-        <option  value="Otro">Otro</option>
+        <option  value="maestro">Maestro</option>
+        <option  value="coordinador">Coordinador</option>
+        <option  value="jefe">Jefe</option>
 				
         </select>
         <select class="form-control form-control-lg" name="centro" id="centro" >
@@ -174,50 +174,7 @@
 							<option value="UNAH-CUROC">Centro Universitario Regional de Occidente (UNAH-CUROC)</option>
 							<option value="UNAH-CURNO">Centro Universitario Regional Nororiental (UNAH-CURNO)</option>
             </select>
-            <select class="form-control form-control-lg" name="carrera" id="carrera" ">
-								<option value="">Seleccione una Carrera</option>
-								<option value="Ingenieria Civil">Ingenieria Civil</option>
-								<option value="Ingenieria En Sistemas">Ingenieria En Sistemas</option>
-								<option value="Ingenieria Electrica">Ingenieria Electrica</option>
-								<option value="Ingenieria Industrial">Ingenieria Industrial</option>
-								<option value="Ingenieria Mecanica">Ingenieria Mecanica</option>
-								<option value="Ingenieria Quimica">Ingenieria Quimica</option>
-								<option value="Ingenieria Forestal">Ingenieria Forestal</option>
-								<option value="Ingenieria Agronomica">ingenieria Agronomica</option>
-								<option value="Licenciatura en Geografia">Licenciatura en Geografia</option>
-								<option value="Licenciatura en Arqueoastronomia">Licenciatura en Arqueoastronomia</option>
-								<option value="Licenciatura en Astronomia">Licenciatura en Astronomia</option>
-								<option value="Licenciatura en Antropologia">Licenciatura en Antropologia</option>
-								<option value="Licenciatura en Historia">Licenciatura en Historia</option>
-								<option value="Licenciatura en Desarrollo-Local">Licenciatura en Desarrollo Local</option>
-								<option value="Licenciatura en Periodismo">Licenciatura en Periodismo</option>
-								<option value="Licenciatura en Trabajo Social">Licenciatura en Trabajo Social</option>
-								<option value="Tecnico Desarrollo Municipal">Tecnico Desarrollo Municipal</option>
-								<option value="Licenciatura En Matematicas">Licenciatura En Matematicas</option>
-								<option value="Licenciatura En Fisica">Licenciatura En Fisica</option>
-								<option value="Licenciatura en Microbiologia">Licenciatura en Microbiologia</option>
-								<option value="Licenciatura En Biologia">Licenciatura En Biologia</option>
-								<option value="Licenciatura En Derecho">Licenciatura En Derecho</option>
-								<option value="Licenciatura en Enfermería">Licenciatura en Enfermería</option>
-								<option value="Licenciatura En Medicina General">Licenciatura En Medicina General</option>
-								<option value="Licenciatura En Nutricion">Licenciatura En Nutricion</option>
-								<option value="Licenciatura Informatica Administrativa">Licenciatura Informatica Administrativa</option>
-								<option value="Licenciatura Administracion De Empresas">Licenciatura Administracion De Empresas</option>
-								<option value="Licenciatura En Economia">Licenciatura En Economia</option>
-								<option value="Licenciatura En Banca Y Finanzas">Licenciatura En Banca Y Finanzas</option>
-								<option value="Licenciatura En Mercadotecnia">Licenciatura En Mercadotecnia</option>
-								<option value="Licenciatura En Comercio Internacional">Licenciatura En Comercio Internacional</option>
-								<option value="Lic En Contaduria Publica">Lic En Contaduria Publica</option>
-								<option value="Licenciatura En Administracion Aduanera">Licenciatura En Administracion Aduanera</option>
-								<option value="Licenciatura En Arquitectura">Licenciatura En Arquitectura</option>
-								<option value="Licenciatura En Pedagogia">Licenciatura En Pedagogia</option>
-								<option value="Licenciatura En Letras">Licenciatura En Letras</option>
-								<option value="Licenciatura En Filosofia">Licenciatura En Filosofia</option>
-								<option value="Licenciatura En Lenguas Extranjeras">Licenciatura En Lenguas Extranjeras</option>
-								<option value="Licenciatura En Musica">Licenciatura En Musica</option>
-								<option value="Licenciatura En Odontologia">Licenciatura En Odontologia</option>
-								<option value="Licenciatura En Quimica Y Farmancia">Licenciatura En Quimica Y Farmancia</option>
-							</select>
+            
         
         <input type="button" class ="btn btn-primary boton" id="btn-registrar" value="Entrar">
         <script type="text/javascript" src="js/jquery.min.js"></script>
