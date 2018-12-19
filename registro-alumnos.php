@@ -147,16 +147,16 @@
         <label></label>
         <input type="text" id="direccion" placeholder="Direccion" required autofocus > 
         <label for"cuenta"></label>
-        <input class="" type="text" id="correo" placeholder="Correo" required autofocus>
+        <input class="" type="text" id="grado" placeholder="Grado" required autofocus>
         <label for"cuenta"></label>
         <input class="" type="text" id="cuenta" placeholder="Cuenta" required autofocus>
         <label for"cuenta"></label>
        
 
         <input class="" type="text" id="password" placeholder="Password" required autofocus>
-        <select class="form-control form-control-lg" name="jearquia" id="jerarquia" >
+        <select class="form-control form-control-lg" name="jerarquia" id="jerarquia" >
         <option  value="">Categoria</option>
-        <option  value="Estudiante">Estudiante</option>
+        <option  value="estudiante">estudiante</option>
         <option  value="Maestro">Maestro</option>
         <option  value="Otro">Otro</option>
 				
@@ -164,7 +164,7 @@
         <select class="form-control form-control-lg" name="centro" id="centro" >
 							<option  value="">Seleccione un centro de estudios</option>
 							<option value="CURC">Centro Universitario Regional Del Centro (CURC)</option>
-							<option value="CU">Ciudad Universitaria (CU)</option>
+							<option value="UNAH-CU">Ciudad Universitaria (CU)</option>
 							<option value="UNAH-VS">Valle de Sula (UNAH-VS)</option>
 							<option value="UNAH-TEC-AGUÁN">Centro Tecnológico del Valle de Aguan (UNAH-TEC-AGUÁN)</option>
 							<option value="UNAH-TEC-Danli">Centro Tecnológico de Danlí (UNAH-TEC-Danli)</option>
@@ -234,7 +234,7 @@
     </div>
         $("#btn-registrar").click(function(){
             $.ajax({
-                url:"ajax/estudiante.php",
+                url:"ajax/sesion-estudiante.php",
                 data:"No_Cuenta="+$("#cuenta").val() + "&password="+$("#password").val(),
                 dataType:"json",
                 method:"POST",
@@ -260,7 +260,7 @@
      
     <script>
 		$("#btn-registrar").click(function(){
-			var parametros =  `nombre=${$("#nombre").val()}&apellido=${$("#apellido").val()}&direccion=${$("#direccion").val()}&ID=${$("#id").val()}&telefono=${$("#telefono").val()}&email=${$("#correo").val()}&password=${$("#password").val()}&centro=${$("#centro").val()}&No_Cuenta=${$("#cuenta").val()}&jerarquia=${$("#jerarquia").val()}&carrera=${$("#carrera").val()}`;
+			var parametros =  `nombre=${$("#nombre").val()}&apellido=${$("#apellido").val()}&No_Cuenta=${$("#cuenta").val()}&password=${$("#password").val()}&jerarquia=${$("#jerarquia").val()}&carrera=${$("#carrera").val()}&centro=${$("#centro").val()}&categoria=${$("#grado").val()}`;
 			console.log("El cliente envia estos parametros: "+parametros);
 			$.ajax({
 				url:"ajax/proceso-ingreso.php",

@@ -2,27 +2,25 @@
     class Persona{
         protected $nombre;
         protected $apellido;
-        protected $direccion;
-        protected $telefono;
-        protected $edad;
-        protected $correo;
+ 
+        protected $categoria;
         protected $password;
-        protected $sexo;
-        protected $estado_civil;
-        protected $fecha_ingreso;
+     
+ 
+
         protected $jerarquia;
         protected $No_Cuenta;
         protected $centro;
         protected $carrera;
 
-        public function __construct($nombre=null,$apellido=null,$direccion=null,$ID=null,$telefono=null,$edad=null,$correo=null,$password=null,$sexo=null,$estado_civil=null,$fecha_ingreso=null,$jerarquia=null,$No_Cuenta=null,$centro=null,$carrera=null){
+        public function __construct($nombre=null,$apellido=null,$direccion=null,$ID=null,$telefono=null,$edad=null,$categoria=null,$password=null,$sexo=null,$estado_civil=null,$fecha_ingreso=null,$jerarquia=null,$No_Cuenta=null,$centro=null,$carrera=null){
             $this->nombre=$nombre;
             $this->apellido=$apellido;
             $this->direccion=$direccion;
             $this->ID=$ID;
             $this->telefono=$telefono;
             $this->edad=$edad;
-            $this->correo=$correo;
+            $this->correo=$categoria;
             $this->password=$password;
             $this->sexo=$sexo;
             $this->estado_civil=$estado_civil;
@@ -129,12 +127,10 @@
             $arreglo = array();
             $arreglo["nombre"]=$this->nombre;
             $arreglo["apellido"]=$this->apellido;
-            $arreglo["direccion"]=$this->direccion;
-            $arreglo["ID"]=$this->ID;
-            $arreglo["telefono"]=$this->telefono;
-            $arreglo["correo"]=$this->correo;
+            $arreglo["categoria"]=$this->categoria;
             $arreglo["password"]=$this->password;
             $arreglo["No_Cuenta"]=$this->No_Cuenta;
+            
 
             fwrite($archivo,json_encode($arreglo) ."\n");
             fclose($archivo);

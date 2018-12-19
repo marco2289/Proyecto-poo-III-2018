@@ -109,8 +109,8 @@
                                       <tr>
                                         <th scope="row">Nombre:</th>
                                       <td>'.$registro['nombre'].' '.$registro['apellido'].'</td>
-                                        <th scope="row" >Estudiante categoria:</th>
-                                        <td>'.$registro['categoria'].'</td>
+                                        <th scope="row" >Categoria:</th>
+                                        <td>'.$registro['jerarquia'].' Pregrado</td>
                                       </tr>
                                       <tr>
                                         <th scope="row">Cuenta:</th>

@@ -4,7 +4,7 @@ class Alumno{
 	private $nombre;
     private $apellido;
     private $cuenta;
-    private $id;
+    private $categoria;
     private $pass;
     private $mail;
     private $facu;
@@ -17,7 +17,7 @@ class Alumno{
 		$this->nombre = $nombre;
         $this->apellido = $apellido;
         $this->cuenta = $cuenta;
-        $this->id = $id;
+     
         $this->pass = $pass;
         $this->mail = $mail;
         $this->facu = $facu;
